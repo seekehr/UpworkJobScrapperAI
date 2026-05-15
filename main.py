@@ -1,4 +1,4 @@
-"""Run the Upwork feed scraper (`scrapping.py`) and optional keyword summaries from `keywords.yaml`."""
+"""Run the Upwork feed scraper (`scrapping.py`), optional keyword summaries, then the new-job monitor (`scrape_new_jobs.py`)."""
 
 import asyncio
 import json
@@ -6,6 +6,7 @@ from pathlib import Path
 
 import yaml
 
+import scrape_new_jobs
 import scrapping
 
 KEYWORDS_PATH = Path(__file__).resolve().parent / "keywords.yaml"
@@ -57,6 +58,7 @@ def _print_keyword_summary() -> None:
 def main() -> None:
     asyncio.run(scrapping.init())
     _print_keyword_summary()
+    asyncio.run(scrape_new_jobs.init(skip_ready_prompt=True))
 
 
 if __name__ == "__main__":
