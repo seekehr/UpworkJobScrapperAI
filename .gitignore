@@ -1,5 +1,7 @@
+.env
 .venv/
 .idea/
 __pychache__/
 .vscode/
 .cursor/
+.env

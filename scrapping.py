@@ -42,6 +42,8 @@ from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeoutError
 
+import discord_webhook
+
 
 # ════════════════════════════════════════════════════════════════
 #  SETTINGS
@@ -451,6 +453,17 @@ async def init():
         writer.writeheader()
         writer.writerows(jobs)
     print(f"  Saved {OUTPUT_CSV}  ({len(jobs)} jobs)")
+
+    if discord_webhook.is_enabled():
+        posted = 0
+        for job in jobs:
+            if await asyncio.to_thread(discord_webhook.send_new_job, job):
+                posted += 1
+        print(
+            f"\n  Discord: {posted} new notification(s) "
+            f"({len(jobs) - posted} already sent or failed)."
+        )
+
     print("\nDone!")
 
 

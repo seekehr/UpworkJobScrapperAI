@@ -35,6 +35,8 @@ from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeoutError
 
+import discord_webhook
+
 
 # ════════════════════════════════════════════════════════════════
 #  SETTINGS
@@ -370,6 +372,8 @@ async def init(*, skip_ready_prompt: bool = False):
                 if new_jobs:
                     accumulated.extend(new_jobs)
                     save_output(accumulated)
+                    for job in new_jobs:
+                        await asyncio.to_thread(discord_webhook.send_new_job, job)
                     print(
                         f"  → {len(new_jobs)} new job(s) found. "
                         f"Total saved: {len(accumulated)}. "
