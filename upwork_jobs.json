@@ -1,5 +1,20 @@
 [
   {
+    "title": "AI Workflow Developer for CRM Automation",
+    "url": "https://www.upwork.com/jobs/Workflow-Developer-for-CRM-Automation_~022055143907942368077/?referrer_url_path=find_work_home",
+    "description": "We are seeking a developer to support AI workflows, automation, and agents for CRM/finance/other system data synchronization and validation. The role involves enhancing our CRM system by integrating AI-driven automation to improve data accuracy and efficiency. The ideal candidate will have experience in developing AI workflows and automating processes to streamline data management.",
+    "rate": "Hourly: $20-$25",
+    "estimated_budget": "",
+    "proposals": "Less than 5",
+    "posted": "7 minutes ago",
+    "client_money_spent": "$0",
+    "payment_verified": "Payment verified",
+    "client_country": "United Kingdom",
+    "client_rating": "0",
+    "client_hire_rate": "0% hire rate, 1 open job",
+    "scraped_at": "2026-05-15 09:38:53"
+  },
+  {
     "title": "Python Engineer to Build AI + Poker Solver Content Pipeline",
     "url": "https://www.upwork.com/jobs/Python-Engineer-Build-Poker-Solver-Content-Pipeline_~022055121689296534862/?referrer_url_path=find_work_home",
     "description": "We're building a system that generates poker questions at scale, combining solver data with LLMs. We have a clear architecture and detailed engineering brief we'll share with finalists. We need a strong engineer to build it.\n\nThe single most important thing: you're great at coding with AI tools. You drive Claude Code or Codex effectively, write clean Python, debug fast, and ship working systems without getting stuck in over-engineering. Strong logic and data-pipeline skills matter more than years of experience.\n\nPoker knowledge is a huge plus and would let you contribute more on the strategic side, especially as we will be working with solvers. But it's not essential if you can pick up the logic and learn quickly\n\nWe will provide solver access in any tooling you need. \n\nQuick filter: start your application with the word 'pokerchamp' so I know you read this.\n\nTo apply, please tell us briefly:\n1. How you work with AI coding tools (which ones, how heavily, what kinds of tasks)\n2. Any poker experience, if relevant",
@@ -11,22 +26,7 @@
     "payment_verified": "Payment verified",
     "client_country": "USA",
     "client_rating": "5.0",
-    "client_hire_rate": "39% hire rate, 12 open jobs",
-    "scraped_at": "2026-05-15 09:31:36"
-  },
-  {
-    "title": "AI Backend Developer Needed for Node.js/Express + MongoDB MVP",
-    "url": "https://www.upwork.com/jobs/Backend-Developer-Needed-for-Node-Express-MongoDB-MVP_~022055117096109024537/?referrer_url_path=find_work_home",
-    "description": "I’m looking for an experienced AI/backend developer to help with my existing MVP.\n\nThe backend is built with Node.js, Express, and MongoDB. The first task is fixing a current API issue, which should be a quick 30-minute task. After that, I’d like to continue working together to complete the remaining APIs and integrate an AI agent into the website.\n\n- Requirements\nStrong Node.js, Express, and MongoDB experience\nExperience building and debugging APIs\nExperience with AI/LLM integrations, chatbots, or AI agents\nComfortable working with GitHub\nGood communication and availability\n\n- Nice to Have\nFrontend experience\nReact or similar framework experience\n\n- Please Include\nYour GitHub profile\nRelevant backend/API projects\nAI or chatbot projects you have built\nYour availability and rate\n\nThis can become an ongoing role after the first API fix.",
-    "rate": "Hourly: $30-$50",
-    "estimated_budget": "",
-    "proposals": "15 to 20",
-    "posted": "1 hour ago",
-    "client_money_spent": "$0",
-    "payment_verified": "Payment verified",
-    "client_country": "Ukraine",
-    "client_rating": "0",
-    "client_hire_rate": "0% hire rate, 2 open jobs",
-    "scraped_at": "2026-05-15 09:31:36"
+    "client_hire_rate": "38% hire rate, 12 open jobs",
+    "scraped_at": "2026-05-15 09:38:53"
   }
 ]
