@@ -5,3 +5,5 @@ __pychache__/
 .vscode/
 .cursor/
 .env
+*.json
+*.csv
