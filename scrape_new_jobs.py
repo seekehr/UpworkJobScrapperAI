@@ -43,7 +43,7 @@ import discord_webhook
 # ════════════════════════════════════════════════════════════════
 
 RELOAD_MIN     = 30
-RELOAD_MAX     = 35
+RELOAD_MAX     = 60
 REQUEST_DELAY  = 1.5
 DETAIL_TIMEOUT = 10_000
 
