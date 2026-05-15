@@ -362,6 +362,36 @@ async def init(*, skip_ready_prompt: bool = False):
                 )
                 await asyncio.sleep(wait_secs)
 
+                if not browser.is_connected():
+                    print("  [FATAL] Browser disconnected. Stopping monitor.", file=sys.stderr)
+                    try:
+                        from winotify import Notification
+                        Notification(
+                            app_id="Upwork Scraper",
+                            title="Monitor Stopped",
+                            msg="Chrome browser was closed or disconnected.",
+                            duration="long"
+                        ).show()
+                    except Exception as e:
+                        print(f"  [WARN] Could not show Windows notification: {e}", file=sys.stderr)
+                    break
+
+                if feed_page.is_closed():
+                    print("  [WARN] Feed page was closed. Recreating...", file=sys.stderr)
+                    try:
+                        feed_page = await context.new_page()
+                    except Exception as exc:
+                        print(f"  [FATAL] Could not recreate feed page: {exc}", file=sys.stderr)
+                        break
+
+                if detail_page.is_closed():
+                    print("  [WARN] Detail page was closed. Recreating...", file=sys.stderr)
+                    try:
+                        detail_page = await context.new_page()
+                    except Exception as exc:
+                        print(f"  [FATAL] Could not recreate detail page: {exc}", file=sys.stderr)
+                        break
+
                 print(f"[{datetime.now().strftime('%H:%M:%S')}] Reloading feed...")
                 try:
                     new_jobs = await check_for_new_jobs(feed_page, detail_page, known_urls)
