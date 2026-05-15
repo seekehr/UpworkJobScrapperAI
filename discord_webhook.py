@@ -94,6 +94,19 @@ def _job_embed(job: dict[str, Any]) -> dict[str, Any]:
     return {k: v for k, v in embed.items() if v is not None}
 
 
+def _post_headers() -> dict[str, str]:
+    # Discord sits behind Cloudflare; urllib's default User-Agent is often blocked (403, cf error 1010).
+    return {
+        "Content-Type": "application/json; charset=utf-8",
+        "Accept": "application/json",
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/131.0.0.0 Safari/537.36"
+        ),
+    }
+
+
 def _post_job_embed(job: dict[str, Any]) -> bool:
     hook = _resolved_url()
     if not hook:
@@ -104,7 +117,7 @@ def _post_job_embed(job: dict[str, Any]) -> bool:
     req = urllib.request.Request(
         hook,
         data=data,
-        headers={"Content-Type": "application/json"},
+        headers=_post_headers(),
         method="POST",
     )
     try:

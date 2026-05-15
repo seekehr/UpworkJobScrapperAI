@@ -49,7 +49,7 @@ import discord_webhook
 #  SETTINGS
 # ════════════════════════════════════════════════════════════════
 
-MAX_AGE_DAYS   = 2
+MAX_AGE_DAYS   = 1
 REQUEST_DELAY  = 1.5
 DETAIL_TIMEOUT = 10_000
 # (scrolling replaced by "Load More Jobs" button — no scroll settings needed)
@@ -456,7 +456,7 @@ async def init():
 
     if discord_webhook.is_enabled():
         posted = 0
-        for job in jobs:
+        for job in reversed(jobs):
             if await asyncio.to_thread(discord_webhook.send_new_job, job):
                 posted += 1
         print(
