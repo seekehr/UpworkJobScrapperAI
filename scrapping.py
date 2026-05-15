@@ -23,7 +23,7 @@ HOW TO USE
 
 SETTINGS (edit below)
 ---------------------
-MAX_AGE_DAYS   – only collect jobs posted within this many days  (default 2)
+MAX_AGE_HOURS   – only collect jobs posted within this many days  (default 2)
 REQUEST_DELAY  – seconds to wait between detail-page visits      (default 1.5)
 DETAIL_TIMEOUT – ms to wait for "hire rate" text on detail pages (default 10000)
 SCROLL_STEP    – pixels to scroll per step                       (default 600)
@@ -49,7 +49,7 @@ import discord_webhook
 #  SETTINGS
 # ════════════════════════════════════════════════════════════════
 
-MAX_AGE_DAYS   = 1
+MAX_AGE_HOURS = 5  # replaces MAX_AGE_DAYS = 1
 REQUEST_DELAY  = 1.5
 DETAIL_TIMEOUT = 10_000
 # (scrolling replaced by "Load More Jobs" button — no scroll settings needed)
@@ -88,11 +88,11 @@ def parse_posted_age(text: str) -> timedelta | None:
             return timedelta(seconds=n * secs)
     return None
 
-def is_too_old(posted_text: str, max_age_days: int) -> bool:
+def is_too_old(posted_text: str, max_age_hours: int) -> bool:
     age = parse_posted_age(posted_text)
     if age is None:
         return False
-    return age > timedelta(days=max_age_days)
+    return age > timedelta(hours=max_age_hours)
 
 
 # ════════════════════════════════════════════════════════════════
@@ -234,7 +234,7 @@ async def scroll_and_collect(page, max_age_days: int) -> list[dict]:
     LOAD_MORE_SEL  = "[data-test='load-more-button']"
     LOAD_MORE_WAIT = 15_000   # ms to wait for button + new tiles after clicking
 
-    print(f"Collecting jobs posted ≤ {max_age_days} day(s) ago...\n")
+    print(f"Collecting jobs posted ≤ {max_age_days} hour(s) ago...\n")
 
     async def parse_current_tiles() -> bool:
         """Parse all tiles on the page. Returns True if cutoff was reached."""
@@ -246,7 +246,7 @@ async def scroll_and_collect(page, max_age_days: int) -> list[dict]:
                 continue
             if job["posted"] and is_too_old(job["posted"], max_age_days):
                 print(
-                    f"  [STOP] Cutoff — '{job['posted']}' exceeds {max_age_days} day(s)."
+                    f"  [STOP] Cutoff — '{job['posted']}' exceeds {max_age_days} hour(s)."
                 )
                 return True
             seen_urls.add(job["url"])
@@ -304,7 +304,7 @@ async def scroll_and_collect(page, max_age_days: int) -> list[dict]:
         if await parse_current_tiles():
             break
 
-    print(f"\nCollected {len(all_jobs)} job(s) within the {max_age_days}-day window.")
+    print(f"\nCollected {len(all_jobs)} job(s) within the {max_age_days}-hours window.")
     return all_jobs
 
 
@@ -316,13 +316,14 @@ async def init():
     print(__doc__)
 
     try:
-        days_input = input(
-            f"How many days back to collect? [default {MAX_AGE_DAYS}]: "
+        hours_input = input(
+        f"How many hours back to collect? [default {MAX_AGE_HOURS}]: "
         ).strip()
-        max_age = int(days_input) if days_input else MAX_AGE_DAYS
+        max_age = int(hours_input) if hours_input else MAX_AGE_HOURS
+        print(f"  → Cutoff: jobs posted within the last {max_age} hour(s).\n")
     except ValueError:
-        max_age = MAX_AGE_DAYS
-    print(f"  → Cutoff: jobs posted within the last {max_age} day(s).\n")
+        max_age = MAX_AGE_HOURS
+    print(f"  → Cutoff: jobs posted within the last {max_age} hours(s).\n")
 
     input("Press Enter once Chrome is open and you are logged into Upwork... ")
 
