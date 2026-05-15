@@ -2,15 +2,15 @@
 Upwork Job Scraper
 ==================
 Connects to YOUR real Chrome (via remote debugging) so Upwork cannot
-detect automation.  Scrolls the feed, loading more jobs automatically,
-until every visible job was posted within MAX_AGE_DAYS days.  Then visits
-each detail page to collect client rating and hire rate.
+detect automation.  Scrolls the feed incrementally, waiting for new tiles
+to appear in the DOM after each scroll, until every visible job exceeds
+the age cutoff.  Then visits each detail page for rating and hire rate.
 
 HOW TO USE
 ----------
 1. Kill every Chrome process and launch Chrome with remote debugging:
 
-   PowerShell:
+   PowerShell (run as one block):
        Stop-Process -Name chrome -Force -ErrorAction SilentlyContinue
        & "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" `
            --remote-debugging-port=9222 `
@@ -26,6 +26,10 @@ SETTINGS (edit below)
 MAX_AGE_DAYS   – only collect jobs posted within this many days  (default 2)
 REQUEST_DELAY  – seconds to wait between detail-page visits      (default 1.5)
 DETAIL_TIMEOUT – ms to wait for "hire rate" text on detail pages (default 10000)
+SCROLL_STEP    – pixels to scroll per step                       (default 600)
+SCROLL_PAUSE   – seconds to wait after each scroll step          (default 2.0)
+NEW_TILE_WAIT  – ms to wait for at least one new tile to appear  (default 5000)
+MAX_SAME_COUNT – stop after this many scrolls with no new tiles  (default 8)
 """
 
 import asyncio
@@ -40,41 +44,35 @@ from playwright.async_api import async_playwright, TimeoutError as PlaywrightTim
 
 
 # ════════════════════════════════════════════════════════════════
-#  SETTINGS  — edit these
+#  SETTINGS
 # ════════════════════════════════════════════════════════════════
 
-MAX_AGE_DAYS   = 1       # stop scrolling when jobs are older than this
-REQUEST_DELAY  = 1.5     # seconds between detail-page requests
-DETAIL_TIMEOUT = 10_000  # ms
+MAX_AGE_DAYS   = 2
+REQUEST_DELAY  = 1.5
+DETAIL_TIMEOUT = 10_000
+# (scrolling replaced by "Load More Jobs" button — no scroll settings needed)
 
-CDP_URL      = "http://localhost:9222"
-JOBS_URL     = "https://www.upwork.com/nx/find-work/most-recent?nav_dir=pop"
-OUTPUT_JSON  = "upwork_jobs.json"
-OUTPUT_CSV   = "upwork_jobs.csv"
+CDP_URL     = "http://localhost:9222"
+JOBS_URL    = "https://www.upwork.com/nx/find-work/most-recent?nav_dir=pop"
+OUTPUT_JSON = "upwork_jobs.json"
+OUTPUT_CSV  = "upwork_jobs.csv"
+
 
 # ════════════════════════════════════════════════════════════════
-#  "Posted N ago" → timedelta parser
+#  "Posted N ago" → timedelta
 # ════════════════════════════════════════════════════════════════
 
-# Maps unit words → number of seconds
 _UNIT_SECONDS = {
-    "second": 1, "seconds": 1,
-    "minute": 60, "minutes": 60,
-    "hour":   3600, "hours": 3600,
-    "day":    86400, "days": 86400,
-    "week":   604800, "weeks": 604800,
-    "month":  2_592_000, "months": 2_592_000,  # ~30 days
-    "year":   31_536_000, "years": 31_536_000,
+    "second": 1,        "seconds": 1,
+    "minute": 60,       "minutes": 60,
+    "hour":   3600,     "hours":   3600,
+    "day":    86400,    "days":    86400,
+    "week":   604800,   "weeks":   604800,
+    "month":  2_592_000,"months":  2_592_000,
+    "year":   31_536_000,"years":  31_536_000,
 }
 
 def parse_posted_age(text: str) -> timedelta | None:
-    """
-    Parse strings like:
-      "50 minutes ago", "2 hours ago", "1 day ago",
-      "3 days ago", "just now", "yesterday"
-    Returns a timedelta representing how long ago the job was posted,
-    or None if the text cannot be parsed.
-    """
     text = text.strip().lower()
     if text in ("just now", "moments ago"):
         return timedelta(seconds=0)
@@ -88,12 +86,10 @@ def parse_posted_age(text: str) -> timedelta | None:
             return timedelta(seconds=n * secs)
     return None
 
-
 def is_too_old(posted_text: str, max_age_days: int) -> bool:
-    """Return True if the job's posted-age exceeds max_age_days."""
     age = parse_posted_age(posted_text)
     if age is None:
-        return False   # can't tell → keep it
+        return False
     return age > timedelta(days=max_age_days)
 
 
@@ -103,7 +99,6 @@ def is_too_old(posted_text: str, max_age_days: int) -> bool:
 
 def safe_text(el) -> str:
     return el.get_text(strip=True) if el else ""
-
 
 def parse_rating_from_foreground(fg_div) -> str:
     if fg_div is None:
@@ -121,6 +116,19 @@ def parse_rating_from_foreground(fg_div) -> str:
         except ValueError:
             pass
     return ""
+
+async def wait_for_captcha_if_needed(page) -> None:
+    url   = page.url.lower()
+    title = (await page.title()).lower()
+    if any(kw in url or kw in title
+           for kw in ("captcha", "challenge", "verify", "robot", "blocked")):
+        print(
+            "\n⚠  CAPTCHA / challenge detected!\n"
+            "   Solve it in the Chrome window, then press Enter here...",
+            flush=True,
+        )
+        input()
+        await asyncio.sleep(3)
 
 
 # ════════════════════════════════════════════════════════════════
@@ -181,10 +189,10 @@ async def scrape_detail(page, url: str) -> dict:
         await page.goto(url, wait_until="domcontentloaded", timeout=30_000)
         await page.wait_for_selector("text=/hire rate/i", timeout=DETAIL_TIMEOUT)
     except PlaywrightTimeoutError:
-        print(f"  [WARN] Timeout on detail page: {url}", file=sys.stderr)
+        print(f"  [WARN] Timeout: {url}", file=sys.stderr)
         return result
     except Exception as exc:
-        print(f"  [WARN] Error on detail page: {exc}", file=sys.stderr)
+        print(f"  [WARN] Error ({exc}): {url}", file=sys.stderr)
         return result
 
     soup = BeautifulSoup(await page.content(), "html.parser")
@@ -209,103 +217,90 @@ async def scrape_detail(page, url: str) -> dict:
 
 
 # ════════════════════════════════════════════════════════════════
-#  Captcha / block detector
-# ════════════════════════════════════════════════════════════════
-
-async def wait_for_captcha_if_needed(page, timeout_minutes: int = 10) -> None:
-    """
-    If Upwork shows a CAPTCHA or challenge page, print a warning and
-    wait for the user to solve it (up to timeout_minutes minutes).
-    Detection: page URL contains 'captcha' or 'challenge', or the
-    page title contains 'verify' or 'robot'.
-    """
-    url   = page.url.lower()
-    title = (await page.title()).lower()
-    if any(kw in url or kw in title
-           for kw in ("captcha", "challenge", "verify", "robot", "blocked")):
-        print(
-            "\n⚠  CAPTCHA / challenge detected!\n"
-            "   Please solve it in the Chrome window, then press Enter here...",
-            flush=True,
-        )
-        input()
-        # After solving, give the page a moment to redirect
-        await asyncio.sleep(3)
-
-
-# ════════════════════════════════════════════════════════════════
-#  Feed scroller  — loads tiles until cutoff age is hit
+#  Incremental scroller
 # ════════════════════════════════════════════════════════════════
 
 async def scroll_and_collect(page, max_age_days: int) -> list[dict]:
     """
-    Scroll the feed, parse new tiles after each scroll, and stop when
-    the oldest visible job exceeds max_age_days.  Returns a deduplicated
-    list of job dicts (title is used as the dedup key).
+    Parse visible tiles, then click "Load More Jobs" repeatedly until:
+      - A tile older than max_age_days is found, or
+      - The button disappears (feed exhausted).
     """
     seen_urls: set[str] = set()
     all_jobs:  list[dict] = []
-    cutoff = timedelta(days=max_age_days)
 
-    scroll_pause   = 1.8   # seconds after each scroll before re-reading the DOM
-    no_new_streak  = 0     # how many scrolls in a row yielded zero new tiles
-    MAX_NO_NEW     = 5     # give up after this many barren scrolls
+    LOAD_MORE_SEL  = "[data-test='load-more-button']"
+    LOAD_MORE_WAIT = 15_000   # ms to wait for button + new tiles after clicking
 
-    print(f"Scrolling feed (cutoff: jobs posted ≤ {max_age_days} day(s) ago)...\n")
+    print(f"Collecting jobs posted ≤ {max_age_days} day(s) ago...\n")
 
-    while True:
-        await wait_for_captcha_if_needed(page)
-
+    async def parse_current_tiles() -> bool:
+        """Parse all tiles on the page. Returns True if cutoff was reached."""
         soup  = BeautifulSoup(await page.content(), "html.parser")
         tiles = soup.find_all("section", class_="air3-card-section")
-
-        new_this_round = 0
-        reached_cutoff = False
-
         for tile in tiles:
             job = parse_job_tile(tile)
             if not job.get("title") or job["url"] in seen_urls:
                 continue
-
-            # Check age
             if job["posted"] and is_too_old(job["posted"], max_age_days):
                 print(
-                    f"  [STOP] Reached cutoff — job posted '{job['posted']}' "
-                    f"exceeds {max_age_days} day(s). Stopping scroll."
+                    f"  [STOP] Cutoff — '{job['posted']}' exceeds {max_age_days} day(s)."
                 )
-                reached_cutoff = True
-                break
-
+                return True
             seen_urls.add(job["url"])
             all_jobs.append(job)
-            new_this_round += 1
-            print(f"  + [{len(all_jobs):>4}] {job['posted']:>20}  {job['title'][:55]}")
+            print(f"  + [{len(all_jobs):>4}]  {job['posted']:<22}  {job['title'][:55]}")
+        return False
 
-        if reached_cutoff:
+    # Parse whatever is already on screen
+    if await parse_current_tiles():
+        print(f"\nCollected {len(all_jobs)} job(s).")
+        return all_jobs
+
+    page_num = 1
+    while True:
+        await wait_for_captcha_if_needed(page)
+
+        # Scroll the button into view so it's clickable
+        btn = page.locator(LOAD_MORE_SEL)
+        btn_count = await btn.count()
+
+        if btn_count == 0:
+            print("  [STOP] No 'Load More Jobs' button — feed exhausted.")
             break
 
-        if new_this_round == 0:
-            no_new_streak += 1
-            if no_new_streak >= MAX_NO_NEW:
-                print("  [STOP] No new jobs loaded after several scrolls — feed exhausted.")
+        print(f"  [page {page_num}] Clicking 'Load More Jobs'...")
+        tiles_before = await page.locator("section.air3-card-section").count()
+
+        await btn.scroll_into_view_if_needed()
+        await asyncio.sleep(0.5)
+        await btn.click()
+        page_num += 1
+
+        # Wait for new tiles to appear in the DOM
+        try:
+            await page.wait_for_function(
+                f"document.querySelectorAll('section.air3-card-section').length > {tiles_before}",
+                timeout=LOAD_MORE_WAIT,
+            )
+        except PlaywrightTimeoutError:
+            print("  [WARN] Timed out waiting for new tiles after clicking Load More.")
+            # Button may have triggered a captcha — check
+            await wait_for_captcha_if_needed(page)
+            # Try once more
+            try:
+                await page.wait_for_function(
+                    f"document.querySelectorAll('section.air3-card-section').length > {tiles_before}",
+                    timeout=LOAD_MORE_WAIT,
+                )
+            except PlaywrightTimeoutError:
+                print("  [STOP] Still no new tiles — giving up.")
                 break
-        else:
-            no_new_streak = 0
 
-        # Scroll to the bottom of the page to trigger lazy-loading
-        prev_height = await page.evaluate("document.body.scrollHeight")
-        await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-        await asyncio.sleep(scroll_pause)
+        await asyncio.sleep(1.5)  # let content settle
 
-        # If the page didn't grow, the feed may be fully loaded
-        new_height = await page.evaluate("document.body.scrollHeight")
-        if new_height == prev_height:
-            # Try pressing End key as a fallback trigger
-            await page.keyboard.press("End")
-            await asyncio.sleep(scroll_pause)
-            final_height = await page.evaluate("document.body.scrollHeight")
-            if final_height == prev_height:
-                no_new_streak += 1
+        if await parse_current_tiles():
+            break
 
     print(f"\nCollected {len(all_jobs)} job(s) within the {max_age_days}-day window.")
     return all_jobs
@@ -318,31 +313,27 @@ async def scroll_and_collect(page, max_age_days: int) -> list[dict]:
 async def init():
     print(__doc__)
 
-    # ── Ask for cutoff ───────────────────────────────────────────
     try:
         days_input = input(
-            f"How many days back should we collect? "
-            f"[default: {MAX_AGE_DAYS}]: "
+            f"How many days back to collect? [default {MAX_AGE_DAYS}]: "
         ).strip()
         max_age = int(days_input) if days_input else MAX_AGE_DAYS
     except ValueError:
         max_age = MAX_AGE_DAYS
-    print(f"  → Collecting jobs posted within the last {max_age} day(s).\n")
+    print(f"  → Cutoff: jobs posted within the last {max_age} day(s).\n")
 
     input("Press Enter once Chrome is open and you are logged into Upwork... ")
 
     async with async_playwright() as pw:
-        # ── Connect to user's real Chrome ────────────────────────────────────
         try:
             browser = await pw.chromium.connect_over_cdp(CDP_URL)
         except Exception as exc:
             print(
-                f"\nERROR: Could not connect to Chrome at {CDP_URL}\n"
-                f"Details: {exc}\n\n"
-                "Make sure you:\n"
-                "  1. Killed ALL Chrome processes first.\n"
-                "  2. Launched Chrome with --remote-debugging-port=9222\n"
-                "  3. Ran this script AFTER Chrome opened.",
+                f"\nERROR: Could not connect to Chrome at {CDP_URL}\n{exc}\n\n"
+                "Steps:\n"
+                "  1. Stop-Process -Name chrome -Force\n"
+                "  2. Launch Chrome with --remote-debugging-port=9222\n"
+                "  3. Log into Upwork, then re-run this script.",
                 file=sys.stderr,
             )
             return
@@ -352,41 +343,92 @@ async def init():
         pages   = context.pages
         page    = pages[0] if pages else await context.new_page()
 
-        # ── Navigate to feed ─────────────────────────────────────────────────
         print(f"Navigating to: {JOBS_URL}")
-        await page.goto(JOBS_URL, wait_until="networkidle", timeout=30_000)
+        # domcontentloaded is more reliable than networkidle on Vue/React SPAs
+        await page.goto(JOBS_URL, wait_until="domcontentloaded", timeout=30_000)
         await wait_for_captcha_if_needed(page)
 
-        try:
-            await page.wait_for_selector("section.air3-card-section", timeout=15_000)
-        except PlaywrightTimeoutError:
-            print("ERROR: Job tiles did not appear. Are you logged in?", file=sys.stderr)
+        # Wait for tiles with retries — Upwork hydrates the DOM asynchronously
+        print("Waiting for job feed to load...")
+        found = False
+        selectors = [
+            "section.air3-card-section",
+            "[data-test='job-tile']",
+            ".job-tile-title",
+        ]
+        for attempt in range(3):
+            for sel in selectors:
+                try:
+                    await page.wait_for_selector(sel, timeout=10_000)
+                    print(f"  Tiles found (selector: {sel})")
+                    found = True
+                    break
+                except PlaywrightTimeoutError:
+                    continue
+            if found:
+                break
+            print(f"  Attempt {attempt + 1}: not visible yet, nudging SPA...")
+            await page.evaluate("window.scrollTo(0, 400)")
+            await asyncio.sleep(3)
+            await page.evaluate("window.scrollTo(0, 0)")
+            await asyncio.sleep(2)
+
+        if not found:
+            cur_url   = page.url
+            cur_title = await page.title()
+            snippet   = (await page.content())[:3000]
+            print(
+                f"\nERROR: Job tiles not found after 3 attempts.\n"
+                f"  URL   : {cur_url}\n"
+                f"  Title : {cur_title}\n"
+                f"  HTML snippet:\n{snippet}",
+                file=sys.stderr,
+            )
             return
 
-        # ── Scroll & collect ─────────────────────────────────────────────────
-        jobs = await scroll_and_collect(page, max_age)
+        await asyncio.sleep(2)  # let lazy content settle
+
+        # Initial parse before any scrolling
+        soup  = BeautifulSoup(await page.content(), "html.parser")
+        tiles = soup.find_all("section", class_="air3-card-section")
+        seen_urls: set[str] = set()
+        initial_jobs: list[dict] = []
+        for tile in tiles:
+            job = parse_job_tile(tile)
+            if job.get("title"):
+                seen_urls.add(job["url"])
+                if not is_too_old(job["posted"], max_age):
+                    initial_jobs.append(job)
+                    print(f"  + [{len(initial_jobs):>4}]  {job['posted']:<22}  {job['title'][:55]}")
+
+        # Now scroll for more
+        scroll_jobs = await scroll_and_collect(page, max_age)
+
+        # Merge (scroll_and_collect has its own seen_urls, so dedup by url again)
+        all_urls = {j["url"] for j in initial_jobs}
+        jobs = initial_jobs[:]
+        for j in scroll_jobs:
+            if j["url"] not in all_urls:
+                all_urls.add(j["url"])
+                jobs.append(j)
 
         if not jobs:
-            print("No jobs collected. Exiting.")
+            print("No jobs collected within the cutoff window.")
             return
 
-        # ── Visit detail pages ────────────────────────────────────────────────
-        print(f"\nFetching detail pages for {len(jobs)} job(s)...\n")
+        print(f"\nTotal unique jobs: {len(jobs)}")
+
+        # ── Detail pages ─────────────────────────────────────────────────────
+        print(f"\nFetching detail pages...\n")
         detail_page = await context.new_page()
 
         for i, job in enumerate(jobs, 1):
             if not job["url"]:
                 continue
             print(f"  [{i}/{len(jobs)}] {job['title'][:65]}")
-
-            # Check for captcha on the feed page too (background tab)
             await wait_for_captcha_if_needed(detail_page)
-
             detail = await scrape_detail(detail_page, job["url"])
-
-            # After each detail page, check again
             await wait_for_captcha_if_needed(detail_page)
-
             if detail["client_rating"]:
                 job["client_rating"] = detail["client_rating"]
             job["client_hire_rate"] = detail["client_hire_rate"]
@@ -395,7 +437,7 @@ async def init():
         await detail_page.close()
         print("\nScraping complete. Chrome left open.")
 
-    # ── Save results ──────────────────────────────────────────────────────────
+    # ── Save ──────────────────────────────────────────────────────────────────
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     for job in jobs:
         job["scraped_at"] = ts
@@ -413,4 +455,4 @@ async def init():
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    asyncio.run(init())

@@ -1,5 +1,5 @@
 title,url,description,rate,estimated_budget,proposals,posted,client_money_spent,payment_verified,client_country,client_rating,client_hire_rate,scraped_at
-AI Workflow Developer for CRM Automation,https://www.upwork.com/jobs/Workflow-Developer-for-CRM-Automation_~022055143907942368077/?referrer_url_path=find_work_home,"We are seeking a developer to support AI workflows, automation, and agents for CRM/finance/other system data synchronization and validation. The role involves enhancing our CRM system by integrating AI-driven automation to improve data accuracy and efficiency. The ideal candidate will have experience in developing AI workflows and automating processes to streamline data management.",Hourly: $20-$25,,Less than 5,7 minutes ago,$0,Payment verified,United Kingdom,0,"0% hire rate, 1 open job",2026-05-15 09:38:53
+AI Workflow Developer for CRM Automation,https://www.upwork.com/jobs/Workflow-Developer-for-CRM-Automation_~022055143907942368077/?referrer_url_path=find_work_home,"We are seeking a developer to support AI workflows, automation, and agents for CRM/finance/other system data synchronization and validation. The role involves enhancing our CRM system by integrating AI-driven automation to improve data accuracy and efficiency. The ideal candidate will have experience in developing AI workflows and automating processes to streamline data management.",Hourly: $20-$25,,5 to 10,16 minutes ago,$0,Payment verified,United Kingdom,0,"0% hire rate, 1 open job",2026-05-15 09:51:28
 Python Engineer to Build AI + Poker Solver Content Pipeline,https://www.upwork.com/jobs/Python-Engineer-Build-Poker-Solver-Content-Pipeline_~022055121689296534862/?referrer_url_path=find_work_home,"We're building a system that generates poker questions at scale, combining solver data with LLMs. We have a clear architecture and detailed engineering brief we'll share with finalists. We need a strong engineer to build it.
 
 The single most important thing: you're great at coding with AI tools. You drive Claude Code or Codex effectively, write clean Python, debug fast, and ship working systems without getting stuck in over-engineering. Strong logic and data-pipeline skills matter more than years of experience.
@@ -12,4 +12,1990 @@ Quick filter: start your application with the word 'pokerchamp' so I know you re
 
 To apply, please tell us briefly:
 1. How you work with AI coding tools (which ones, how heavily, what kinds of tasks)
-2. Any poker experience, if relevant",Hourly: $25-$80,,20 to 50,1 hour ago,$10K+,Payment verified,USA,5.0,"38% hire rate, 12 open jobs",2026-05-15 09:38:53
+2. Any poker experience, if relevant",Hourly: $25-$80,,20 to 50,1 hour ago,$10K+,Payment verified,USA,5.0,"38% hire rate, 12 open jobs",2026-05-15 09:51:28
+AI Backend Developer Needed for Node.js/Express + MongoDB MVP,https://www.upwork.com/jobs/Backend-Developer-Needed-for-Node-Express-MongoDB-MVP_~022055117096109024537/?referrer_url_path=find_work_home,"I’m looking for an experienced AI/backend developer to help with my existing MVP.
+
+The backend is built with Node.js, Express, and MongoDB. The first task is fixing a current API issue, which should be a quick 30-minute task. After that, I’d like to continue working together to complete the remaining APIs and integrate an AI agent into the website.
+
+- Requirements
+Strong Node.js, Express, and MongoDB experience
+Experience building and debugging APIs
+Experience with AI/LLM integrations, chatbots, or AI agents
+Comfortable working with GitHub
+Good communication and availability
+
+- Nice to Have
+Frontend experience
+React or similar framework experience
+
+- Please Include
+Your GitHub profile
+Relevant backend/API projects
+AI or chatbot projects you have built
+Your availability and rate
+
+This can become an ongoing role after the first API fix.",Hourly: $30-$50,,15 to 20,2 hours ago,$0,Payment verified,Ukraine,0,"0% hire rate, 2 open jobs",2026-05-15 09:51:28
+Full-Stack Developer for AI Middleware,https://www.upwork.com/jobs/Full-Stack-Developer-for-Middleware_~022055092172213484878/?referrer_url_path=find_work_home,"Hello—I need a developer who has specifically built with Claude API or OpenAI API, Stripe subscription billing with webhook handling, and MCP server configuration. This is a phased hourly engagement—not a fixed-price project. I'm starting with Phase 1 (core API server + Stripe billing) and looking for someone who wants a longer-term relationship if Phase 1 goes well.
+
+You must have: working experience calling the Claude or OpenAI API (show me a live project), Stripe subscription billing with payment failure and cancellation webhooks, and REST API development. MCP server experience is strongly preferred—not awareness, actual implementation.
+
+A paid practical test ($150–$300, 2–3 hours) is required for top candidates before hiring. Full technical specification shared under NDA after initial screening call. Thank you for your application.",Hourly: $25-$45,,20 to 50,3 hours ago,$0,Payment unverified,United States,0,"0% hire rate, 1 open job",2026-05-15 09:51:28
+AI automation,https://www.upwork.com/jobs/automation_~022055089919674101139/?referrer_url_path=find_work_home,"I need ai to login to a crm every hour, navigate through numerous pages and extract certain data elements that are financial fields than display that data in a dashboard.  The crm does not have an api that exposes the data i seek.  The site fields remain the same and do not change, but the data is buried down a few links deep.
+
+I looked into brower-use, claude and n8n.  i need someone that can master the brower navigation quickly.  this is not a screen scraping job and the toolsets for screen scraping will not work.",Hourly: $10-$20,,50+,3 hours ago,$100K+,Payment verified,United States,5.0,"58% hire rate, 1 open job",2026-05-15 09:51:28
+AI Automation Specialist for E-commerce,https://www.upwork.com/jobs/Automation-Specialist-for-commerce_~022055087234163362559/?referrer_url_path=find_work_home,"AI Automation Specialist Needed for Content & E-Commerce Business
+We’re looking for an AI automation expert to help implement AI systems throughout our business to improve efficiency, automate repetitive tasks, and free up team time.
+
+Some initial projects include:
+    •    AI customer service email automation
+    •    AI-assisted DM/customer conversation handling
+    •    Automated social media posting from Google Drive uploads
+    •    AI-generated captions/descriptions/hashtags
+    •    Platform-specific posting workflows (Instagram, TikTok, Facebook, YouTube Shorts, etc.)
+    •    AI content editing/clipping workflows
+    •    Workflow automations, agents, and cron jobs
+
+We want someone who can help us identify and build additional AI opportunities across the business long-term.
+
+Preferred skills:
+    •    OpenAI/ChatGPT APIs
+    •    Make.com, Zapier, n8n
+    •    Lovable
+    •    AI agents/workflows
+    •    Python/API integrations
+    •    Social media automation
+    •    Automation architecture
+
+Please send:
+    •    Examples of automations/agents you’ve built
+    •    Your preferred tech stack
+    •    Relevant experience/case studies
+
+Looking for someone practical, execution-focused, and experienced with real-world AI implementation.",Hourly: $10-$25,,20 to 50,4 hours ago,$10K+,Payment verified,USA,5.0,"63% hire rate, 1 open job",2026-05-15 09:51:28
+Setup automated backend system that creates AI generated video clips in the cloud,https://www.upwork.com/jobs/Setup-automated-backend-system-that-creates-generated-video-clips-the-cloud_~022055086230268837198/?referrer_url_path=find_work_home,"We are looking for a technical AI automation specialist to help us build a mostly automated AI video generation system for short-form content production.
+
+This is not a traditional video editing role. We need someone who can build the backend workflow, connect tools/APIs, organize cloud storage, create reusable prompt systems, and help us automate the production of AI-generated video clips.
+
+The goal is to generate daily batches of 5–10 second AI video clips for our Noomizo Skully content system. These are stylized, character-based AI videos. The clips do not need to be Hollywood-level cinematic, but they must look polished, consistent, and usable for social media.
+
+Our biggest priorities are:
+Strong character consistency across clips
+Near-full automation
+Repeatable daily clip production
+Clean cloud folder organization
+Easy handoff to our human video editor
+Our video editor will manually stitch the clips together into final videos. Your job is to build the system that generates, organizes, watermarks, and stores the clips.
+
+Workflow We Want to Build:
+The system should be able to:
+Generate short-form video ideas.
+Turn those ideas into short scripts.
+Break each script into shot lists.
+Convert each shot into seed image prompts.
+Generate seed images while keeping the character consistent.
+Convert seed images into image-to-video prompts.
+
+Generate multiple 5–10 second clip variations, such as:
+Hook clips
+Body clips
+Ending clips
+CTA clips
+Automatically add our brand @name as a watermark to each clip.
+Upload the clips to cloud storage.
+
+Organize clips into clear folders, such as:
+Hooks
+Body Clips
+Endings
+CTAs
+Approved Clips
+Rejected Clips
+Final Exports
+
+What We Need From You:
+We need someone who can help us set this up from start to finish, including:
+Recommending the best tool stack
+Building the automation workflow
+Connecting AI APIs
+Setting up cloud storage
+Creating folder structures and naming conventions
+Creating reusable prompt templates
+Setting up watermarking
+Building a basic approval/rejection system
+Documenting the process so our team can use it without technical help
+
+Preferred Tools / Experience:
+Experience with some of the following is preferred:
+n8n, Make, Zapier, or similar automation tools
+ChatGPT / OpenAI API
+Claude
+fal.ai
+Seedance
+Runway
+Kling
+AI image generation workflows
+AI image-to-video workflows
+Google Drive, Dropbox, Supabase, AWS, or similar cloud storage
+Airtable, Notion, Google Sheets, or similar tracking systems
+FFmpeg or other tools for watermarking/video processing
+API integrations
+Prompt engineering
+Character consistency workflows
+
+Deliverables:
+By the end of the project, we want:
+A working automated AI clip generation workflow
+A cloud folder system that organizes generated clips
+Reusable prompt templates for ideas, scripts, shot lists, seed images, and video prompts
+Automated watermarking with our @name
+Clip categorization by type: hook, body, ending, CTA, etc.
+A simple approval/rejection workflow
+Documentation/SOPs showing how to run and maintain the system
+Recommendations for scaling the system later
+
+Ideal Candidate:
+The ideal freelancer is technical, automation-minded, and familiar with AI content generation pipelines. You do not need to be a professional video editor, but you should understand how AI video tools work and how to create a repeatable workflow around them.
+We are looking for someone who can think through the full system, not just connect one or two tools. The final result should reduce manual work and give our editor a reliable library of organized AI-generated clips to work from every day.",Fixed-price,"$1,500",10 to 15,4 hours ago,$0,Payment verified,United States,0,"0% hire rate, 2 open jobs",2026-05-15 09:51:28
+AI-Powered Mortgage Revenue Infrastructure Build (GoHighLevel + AI Automation + Funnels),https://www.upwork.com/jobs/Powered-Mortgage-Revenue-Infrastructure-Build-GoHighLevel-Automation-Funnels_~022055064844016503551/?referrer_url_path=find_work_home,"We are building an AI-powered national mortgage acquisition and automation infrastructure inside GoHighLevel with a target Version 1 launch date of June 1.
+
+This is NOT a simple funnel project.
+
+We are building:
+- lead acquisition systems
+- AI-assisted follow-up
+- omnichannel communication
+- mortgage CRM infrastructure
+- automation workflows
+- database nurture systems
+- long-term operational infrastructure
+
+The long-term vision is to evolve this into a larger AI-powered operational platform under RealAI Connects.
+
+PRIMARY BUSINESS FOCUS
+
+Initial focus includes:
+- HELOC
+- Home Equity Loans
+- Refinance
+- Investor financing
+- Self-employed borrowers
+- Homeowner equity strategy
+
+We are looking for serious builders and operators who understand:
+- GoHighLevel
+- automation
+- CRM architecture
+- lead conversion
+- workflows
+- AI integrations
+- outbound systems
+- speed-to-lead systems
+- mortgage or real-estate funnels
+
+PROJECT OBJECTIVES
+
+Build a functioning Version 1 revenue infrastructure system capable of:
+- generating mortgage leads
+- automating follow-up
+- routing leads properly
+- booking appointments
+- nurturing leads long-term
+- tracking KPIs
+- supporting future AI operational intelligence layers
+
+DELIVERABLES
+
+1. Full GoHighLevel setup
+2. Mortgage CRM architecture
+3. Pipelines and opportunity stages
+4. Tags and segmentation systems
+5. Funnels and landing pages
+6. Booking calendars
+7. SMS workflows
+8. Email workflows
+9. AI-assisted follow-up systems
+10. Facebook lead integrations
+11. Meta Pixel + Conversion API setup
+12. Lead routing workflows
+13. Long-term nurture systems
+14. Dead lead revival workflows
+15. KPI dashboard setup
+16. Mobile optimization
+17. Retargeting setup
+
+IDEAL EXPERIENCE
+
+Strong preference for experience with:
+- Mortgage
+- Real estate
+- Investor funnels
+- GoHighLevel
+- Twilio
+- AI automation
+- CRM systems
+- lead routing
+- outbound systems
+- automation infrastructure
+
+BONUS EXPERIENCE
+- Vapi
+- ElevenLabs
+- Zapier
+- Make
+- n8n
+- AI voice systems
+- AI agent systems
+
+IMPORTANT
+
+We are NOT looking for:
+- basic website designers
+- beginner GHL users
+- generic marketers
+
+We ARE looking for:
+- systems thinkers
+- operational builders
+- automation experts
+- infrastructure-minded operators
+
+COMMUNICATION EXPECTATIONS
+
+- Daily updates required
+- Loom walkthroughs preferred
+- Fast communication
+- Ability to move quickly
+- June 1 launch deadline is critical
+
+LONG-TERM OPPORTUNITY
+
+This may evolve into:
+- ongoing partnership
+- recurring monthly work
+- AI infrastructure development
+- vertical operating system expansion
+- long-term operational roles
+
+PLEASE PROVIDE
+
+1. Examples of GoHighLevel systems built
+2. Automation examples
+3. Funnel examples
+4. AI workflow experience
+5. Mortgage or real-estate experience
+6. Your estimated timeline
+7. Why you believe you are a strong fit
+
+We are building infrastructure, not just funnels.
+
+— Cedo | RealAI Connects",Fixed-price,"$8,000",20 to 50,5 hours ago,$4K+,Payment verified,United States,4.5,"61% hire rate, 1 open job",2026-05-15 09:51:28
+AI Automation Engineer — LLM Deployment & System Integration,https://www.upwork.com/jobs/Automation-Engineer-LLM-Deployment-System-Integration_~022055052812176883022/?referrer_url_path=find_work_home,"Role Overview:
+This is a project based engagement where you will act as both a Business Process Automation Strategist and a Technical AI Infrastructure Engineer. You will identify inefficiencies, implement AI-driven solutions, and deploy a high-performance LLM-based AI agent environment all within a defined short timeframe.
+The setup will be hosted on Vast.ai (GPU instance, e.g., RTX 6000 class), and will include an OpenClaw-based agent system with multiple external integrations.
+
+Key Responsibilities:
+Design and implement AI-driven workflows across departments
+Deploy and configure a GPU instance on Vast.ai with a local LLM setup
+Set up and configure the OpenClaw agent framework with a multi-agent architecture
+Integrate with Google Workspace, Telegram, Signal, and Rocket. Chat and Zimbra
+Implement security best practices, including access control and secrets management
+Provide full documentation and conduct team handover sessions
+
+Requirements:
+Strong background in AI, ML, and business process automation
+Hands-on experience with Vast.ai or similar GPU cloud platforms
+Experience with local LLM deployment using Ollama or vLLM
+Familiarity with OpenClaw or similar agent frameworks
+Strong Linux server administration and API integration experience
+Knowledge of Google Workspace API and messaging platform integrations
+Strong understanding of security best practices in distributed systems
+
+Preferred:
+Experience with Docker and containerization
+Prior work with multi-agent AI systems
+VoIP and real-time communication platform experience
+
+Deliverables:
+Business process automation assessment and roadmap
+Fully deployed and configured AI agent environment
+Integrated workflows across all departments
+Comprehensive documentation and team training
+
+Engagement Structure:
+Project-based, with the possibility of ongoing support
+Remote or on-site flexible arrangement
+Milestone-based compensation tied to delivered outcomes
+
+Project Type: One-time setup (with possible ongoing support)",Hourly: $10-$25,,20 to 50,6 hours ago,$40K+,Payment verified,United States,5.0,"48% hire rate, 4 open jobs",2026-05-15 09:51:28
+Software Engineer — Investment Automation (CLI Expert),https://www.upwork.com/jobs/Software-Engineer-Investment-Automation-CLI-Expert_~022055013607929314638/?referrer_url_path=find_work_home,"About the Role
+
+We're hiring an expert software engineer to design and build an automated system for managing investment accounts. You'll architect a robust, CLI-driven platform that integrates with brokerage and financial APIs, executes trading strategies reliably, and operates with the security posture expected of systems that move real money.
+
+This is a hands-on, high-ownership role. You'll be making foundational technical decisions, writing production code, and shipping a system that runs unattended in environments where correctness and uptime are non-negotiable.
+
+What You'll Do
+
+Design and build a command-line tool and supporting services for automated investment account management
+Implement algorithmic trading logic, including order routing, position management, and risk controls
+Integrate with brokerage, market-data, and banking APIs (REST, WebSocket, and FIX where applicable)
+Build a reliable execution layer with idempotency, retries, rate-limit handling, and clear failure modes
+Implement observability: structured logging, metrics, alerting, and audit trails suitable for financial systems
+Harden the system against security and operational risks (secrets management, least-privilege access, encryption in transit and at rest)
+Write thorough tests — unit, integration, and replay-based backtests against historical data
+Document architecture, runbooks, and the CLI itself so the system is maintainable and auditable
+Required Qualifications
+
+5+ years of professional software engineering experience
+Strong command-line tooling expertise: you've designed and shipped non-trivial CLIs (argument parsing, subcommands, config files, exit codes, scriptable output)
+Proficiency in at least one systems-grade language (Python, Go, Rust, TypeScript/Node, or similar)
+Experience integrating with third-party APIs, including handling authentication (OAuth, API keys, signed requests), pagination, rate limits, and unreliable networks
+Solid understanding of concurrency, idempotency, and transactional correctness
+Practical security knowledge: secrets handling, credential rotation, threat modeling for systems handling sensitive data
+Comfort working independently, scoping problems, and delivering end-to-end
+Nice to Have
+
+Prior work on trading systems, brokerage integrations, fintech, or other regulated/financial software
+Experience with FIX protocol, market data feeds, or order management systems
+Familiarity with quantitative finance concepts (portfolio construction, risk metrics, execution algorithms)
+Background in backtesting frameworks or event-driven simulation
+Experience with cloud infrastructure (AWS, GCP) and infrastructure-as-code
+Open-source contributions, particularly to CLI tools or financial libraries
+How We Work
+
+Async-friendly, remote-compatible
+Small team, short feedback loops, no theater
+We value clear writing, careful tradeoffs, and code that's easy to reason about a year from now
+
+How to Apply
+
+Send a short note about a CLI or automation system you've built, along with a link to relevant code or a description of the project. Resumes welcome but not required if you can point us to your work.",Hourly: $30-$100,,20 to 50,8 hours ago,$10K+,Payment verified,United States,5.0,"15% hire rate, 4 open jobs",2026-05-15 09:51:28
+AI-Powered Business Automation & Multi-Agent Chatbot System,https://www.upwork.com/jobs/Powered-Business-Automation-Multi-Agent-Chatbot-System_~022055010510384286109/?referrer_url_path=find_work_home,"Project Summary
+
+We are looking for an experienced AI Engineer / AI Automation Specialist to build an AI-powered business automation and chatbot platform for our internal operations and client-facing workflows.
+
+The project involves developing intelligent AI agents, chatbot systems, workflow automations, and RAG-based knowledge assistants that can integrate with websites, APIs, CRMs, databases, and third-party tools.
+
+The system should be capable of handling customer support, lead qualification, internal task automation, document-based Q&A, and AI-assisted business workflows while maintaining accurate, context-aware, and reliable responses.
+
+Project Scope
+Build AI chatbots and multi-step AI agents
+Develop RAG pipelines using embeddings and vector databases
+Improve prompt engineering, context handling, and hallucination reduction
+Create workflow automations using tools like n8n, Make, or custom APIs
+Integrate AI with websites, CRMs, forms, email systems, and databases
+Implement document ingestion and knowledge-base search functionality
+Develop scalable APIs and backend services for AI workflows
+Design modular and production-ready AI architecture
+Support multi-agent orchestration and possible HITL workflows
+
+Tech Stack Requirements
+OpenAI API / GPT Models / LLM Applications
+LangChain / LangGraph / CrewAI / AutoGen
+RAG Pipelines & Embedding Models
+Vector Databases (Pinecone, Qdrant, Weaviate, Supabase, etc.)
+Python and/or Node.js
+API Integrations & Webhooks
+n8n / Make / Zapier Automation
+Database Integration & Document Processing
+Cloud Deployment (AWS, DigitalOcean, Cloudflare, etc.)
+
+Important: Please share relevant AI projects, chatbot systems, automations, or RAG-based applications you have worked on.",Fixed-price,$900,15 to 20,9 hours ago,$0,Payment verified,Pakistan,0,"0% hire rate, 1 open job",2026-05-15 09:51:28
+Chrome / Playwright Scraping Expert,https://www.upwork.com/jobs/Chrome-Playwright-Scraping-Expert_~022055009211504993561/?referrer_url_path=find_work_home,"We are looking for an expert in browser based crawling for work in improving the crawl quality of a large fleet of ad verification crawlers that is already in production. 
+
+We self-host and develop a variety of crawlers, all written in TypeScript and running in Docker containers. Many of the crawlers are browser based, others are simple http request crawlers to fetch things like ads.txt files for digital advertising verification purposes. 
+
+The browser based crawlers are more complex and do things like measure element geometry and placement on page, measure ad experience, etc.  You must have at least some exposure and experience with the chrome devtools protocol, with understanding browser fingerprinting and bot detection, etc. The more of that experience you have, the better, include examples please.
+
+If you're in this space you know that the landscape is changing quickly as website publishers are trying to navigate the whole AI scraping stuff, which I don't blame them for (we are not in that space, to be 100% clear).  The person we are looking for should be capable of analyzing crawl quality across millions of daily crawls, improving tooling and data collection, and implementing rolling improvements to the crawler infrastructure and code in order to fix or improve functionality. 
+
+Important note: This is NOT a job where you rotate a bunch of proxies and scrape a bunch of data off a page in brute force, we are not interested in anything related to that approach, we don't want to use firecrwal, or whatever other service you might use, at our scale it is entirely economically unfeasible, and again, we don't ""scrape"" content. 
+
+The most important thing is that you are able to compile a custom binary of google chrome that can run in a Roku device. 
+
+One of the requirements in this list might not be real.
+
+I will very likely automatically archive any application that reads like overt LLM generated ""Yes I'll do each and every thing you listed"" text. We are looking for an experienced person and we will talk on a video meeting, so  save your time and mine, no BS applications please.",Hourly,,20 to 50,9 hours ago,$100K+,Payment verified,United States,4.9,"73% hire rate, 1 open job",2026-05-15 09:51:28
+Senior Platform / Microservices + AI Systems Engineer,https://www.upwork.com/jobs/Senior-Platform-Microservices-Systems-Engineer_~022055007045905959325/?referrer_url_path=find_work_home,"Senior Platform / Microservices + AI Systems Engineer
+
+We are looking for a hands-on senior engineer to help strengthen a complex B2B SaaS platform at the intersection of backend engineering, microservices, cloud-native services, and AI systems.
+
+This is an engineering role. The person must be able to read code, debug services, ship features, improve existing architecture, and work inside a live production system. AKS / Kubernetes matters because our services run in that environment, but we are not hiring a DevOps-only or infrastructure-only person.
+
+We need someone who can contribute directly to backend and microservices execution while also helping connect the platform to AI workflows such as RAG, indexing, retrieval, document intelligence, memory, and agentic systems.
+
+**What You Will Work On**
+
+You may help with:
+
+* Building and improving backend services, APIs, and microservices
+* Debugging service-to-service communication, queues, workers, and event-driven flows
+* Working with services running in Azure / AKS or Kubernetes environments
+* Troubleshooting Redis, caching, sessions, performance, and reliability issues
+* Designing and optimizing PostgreSQL or SQL database patterns
+* Supporting test, stage, and production release validation
+* Helping with rollback planning, production readiness, and service reliability
+* Integrating AI services involving RAG, embeddings, indexing, retrieval, document intelligence, LLM APIs, memory, or agentic workflows
+* Improving observability, logging, tracing, documentation, and root-cause analysis
+* Working inside an existing architecture without trying to rewrite everything
+
+**Core Skills**
+
+Strong candidates should have hands-on experience with several of the following:
+
+* Senior backend or platform engineering
+* Node.js / NestJS / Express or equivalent backend microservices experience
+* TypeScript
+* Azure cloud application services
+* AKS / Kubernetes application-level experience
+* Docker and containerized services
+* Microservices and APIs
+* Redis / cache / session troubleshooting
+* PostgreSQL or comparable SQL database experience
+* Queues, workers, service bus, or event-driven systems
+* Production debugging and release validation
+* AI systems integration, including RAG, embeddings, indexing, retrieval, document intelligence, LLM APIs, or agent workflows
+
+React or Angular familiarity is helpful, but this is not primarily a frontend role. We care more about senior engineering judgment, backend/platform depth, production discipline, service integration, and AI-aware systems thinking.
+
+**AI Systems Experience**
+
+We are especially interested in candidates who have built more than simple prompt integrations. Relevant experience may include:
+
+* RAG systems
+* Embeddings and vector search
+* Document upload, parsing, OCR, chunking, and indexing pipelines
+* Permission-aware retrieval
+* Source traceability and provenance
+* LLM APIs such as OpenAI or Azure OpenAI
+* Agentic workflows or tool-based AI services
+* Memory or context-management patterns
+* AI-service integration with existing product workflows
+
+**Ideal Candidate**
+
+You are likely a strong fit if you:
+
+* Think like a senior engineer, not just a task-taker
+* Can read an existing codebase and become productive quickly
+* Can debug across frontend, API, backend service, queue, database, cache, and downstream AI layers
+* Understand production systems, not just local development
+* Communicate clearly and document what changed, why it changed, how it was tested, and what risks remain
+* Can raise the engineering bar, not just add headcount
+* Are pragmatic, reliable, low-ego, and comfortable collaborating across product, architecture, backend, AI, and QA teams
+
+**What We Are Not Looking For**
+
+We are not looking for candidates who only build AI demos, only write prompts, only advise, only do infrastructure work, or only want greenfield projects.
+
+We need a hands-on senior engineer who can contribute to real production software, learn the existing platform, improve what is there, and help us scale responsibly.
+
+**Engagement Details**
+
+* Full time preferred
+* Immediate start preferred
+* Remote
+* Long-term opportunity for the right person
+* Expert-level experience preferred
+
+**When Applying, Please Include a Short Note Covering**
+
+1. Your strongest backend stack
+2. Your Azure / AKS / Kubernetes application experience
+3. A production microservices issue you debugged end to end
+4. Your Redis/cache/session or queue/service-bus experience
+5. Your hands-on AI systems experience, especially RAG, retrieval, indexing, document intelligence, memory, or LLM workflows
+6. Whether you are available full time and how soon you can start
+
+We are looking for someone who can help us move faster, improve production execution, reduce technical concentration risk, and bring stronger AI-aware backend engineering into a serious B2B SaaS platform.",Hourly: $30-$50,,20 to 50,9 hours ago,$500K+,Payment verified,United States,4.1,"100% hire rate, 2 open jobs",2026-05-15 09:51:28
+Senior Developer for semi-autonomous Marketing System,https://www.upwork.com/jobs/Senior-Developer-for-semi-autonomous-Marketing-System_~022055005082703251869/?referrer_url_path=find_work_home,"Senior Full-Stack TypeScript Developer Needed (NestJS + n8n + Supabase + OpenAI)
+
+We are building a multi-tenant AI-powered marketing operating system for SMBs.
+
+This is NOT an autonomous AI agent project.
+
+The platform uses deterministic workflow orchestration enhanced with AI services for:
+
+* content generation,
+* approvals,
+* publishing,
+* engagement analysis,
+* brand-style learning,
+* multi-platform social posting.
+
+We need a senior engineer who understands production SaaS architecture, workflow reliability, API integrations, queues/retries, and AI integrations.
+
+MUST-HAVE SKILLS
+
+* TypeScript
+* Node.js
+* NestJS (or strong backend framework experience)
+* n8n
+* PostgreSQL / Supabase
+* Redis
+* OpenAI API integrations
+* REST APIs
+* OAuth2
+* Webhooks
+* Docker
+* Next.js / React
+
+REQUIRED EXPERIENCE
+
+* Multi-tenant SaaS applications
+* Queue/retry systems
+* Webhook reliability
+* Idempotency / duplicate prevention
+* API integrations (social/media platforms preferred)
+* Structured AI outputs (JSON schema validation)
+* Background jobs / async workflows
+* Production-grade backend architecture
+
+NICE TO HAVE
+
+* pgvector
+* BullMQ
+* Temporal
+* Cloudflare R2
+* OpenTelemetry
+* AI workflow systems
+
+YOU SHOULD UNDERSTAND
+
+* deterministic workflow orchestration,
+* retries/backoff,
+* distributed locks,
+* tenant isolation,
+* workflow state management,
+* structured AI pipelines,
+* cost governance,
+* approval workflows.
+
+DO NOT APPLY IF YOUR EXPERIENCE IS MOSTLY:
+
+* autonomous AI agents,
+* chatbot-only projects,
+* prompt engineering only,
+* no backend SaaS experience.
+
+Project Scope (V1)
+
+* ~50 concurrent clients
+* AI-generated social content
+* approval-gated publishing
+* multi-platform posting
+* adaptive brand memory
+* analytics + engagement tracking
+
+Architecture
+
+* Frontend: Next.js
+* Backend: NestJS
+* Workflow automation: n8n
+* Database: Supabase/Postgres
+* Vector memory: pgvector
+* Cache/locks: Redis
+* Storage: Cloudflare R2
+* AI: OpenAI APIs
+
+To apply, please provide:
+
+1. Relevant SaaS/backend projects
+2. Experience with n8n or workflow systems
+3. Experience building reliable async/retry systems
+4. Experience with OpenAI structured outputs
+5. Your preferred architecture approach for scalable workflow systems",Fixed-price,"$8,000",20 to 50,9 hours ago,$0,Payment unverified,United States,0,"0% hire rate, 1 open job",2026-05-15 09:51:28
+AI Automation Engineer Needed for GoHighLevel Lead Management & Appointment System,https://www.upwork.com/jobs/Automation-Engineer-Needed-for-GoHighLevel-Lead-Management-Appointment-System_~022055000080250209101/?referrer_url_path=find_work_home,"We are looking for an experienced automation engineer to build an AI-powered lead management and appointment booking system using GoHighLevel (GHL).
+
+The goal is to automate the complete lead flow from capture to qualification, follow-up, and appointment booking.
+
+Scope includes:
+
+* GoHighLevel workflow automation setup
+* AI-powered lead qualification using OpenAI/GPT
+* SMS & email follow-up automation
+* Appointment reminders and calendar booking
+* Pipeline stage automation inside GHL
+* Twilio integration for messaging/calls
+* Webhook/API integrations where needed
+* Lead tagging, routing, and notifications
+
+Preferred skills:
+
+* GoHighLevel (GHL)
+* OpenAI / ChatGPT API
+* Twilio
+* Zapier / Make / n8n
+* API integrations & webhooks
+* CRM automation experience
+
+Bonus if you have experience building automation systems for agencies, local businesses, or lead generation workflows.
+
+Please share:
+* Relevant automation projects
+* Loom/video walkthroughs if available
+* Your preferred automation stack
+* Estimated timeline
+
+This is initially a smaller project with potential for long-term collaboration.",Fixed-price,$50,15 to 20,yesterday,$1K+,Payment verified,GBR,5.0,"93% hire rate, 4 open jobs",2026-05-15 09:51:28
+Senior NestJS Full Stack Developer — Primary Developer Role (Platform Takeover),https://www.upwork.com/jobs/Senior-NestJS-Full-Stack-Developer-Primary-Developer-Role-Platform-Takeover_~022054999278538359629/?referrer_url_path=find_work_home,"Seeking a senior NestJS full stack developer to take over as primary developer on a live PropTech SaaS platform built on NestJS, PostgreSQL, Redis, and Railway. The role involves owning the existing codebase, continuing active development, and building a Playwright-based authenticated PDF retrieval pipeline from a municipal government permitting portal with Claude Haiku NLP extraction. The ideal candidate has hands-on experience with Playwright browser automation, Anthropic API integration, Railway deployment, and is comfortable inheriting and maintaining a production codebase they did not originally build.",Hourly: $15-$35,,50+,yesterday,$75,Payment verified,United States,5.0,"100% hire rate, 1 open job",2026-05-15 09:51:28
+n8n Workflow Developer – Local AI Pipeline for Excel Data Processing (Ollama/Llama + n8n),https://www.upwork.com/jobs/n8n-Workflow-Developer-Local-Pipeline-for-Excel-Data-Processing-Ollama-Llama-n8n_~022054999262645078429/?referrer_url_path=find_work_home,"Budget: Fixed-price, $500 - or experienced Best Offer 
+
+I have a partially built n8n workflow (self-hosted on Windows, running locally) that processes Excel-based work order data through a multi-phase pipeline. The workflow reads from a local .xlsm workbook, applies find/replace normalization rules, then uses a locally hosted Llama model (via Ollama) for AI-assisted categorization and rule diagnostics.
+The core logic is roughly 80% complete. I need an experienced n8n developer to finish, stabilize, and optimize the remaining pieces. This is NOT a from-scratch build — you will be working with an existing workflow that has functioning Phase 1 and Phase 2 nodes.
+What’s Already Built
+•	Phase 1: Deterministic find/replace normalization of work order descriptions. Reads local .xlsm via Extract From File nodes, processes through a Code node, outputs cleaned .xlsx. Working.
+•	Phase 2: AI classification via Llama 3.1 8B (Ollama, local). Batches descriptions, compares Llama’s categories to Excel’s rule-based categories, flags mismatches. Working.
+•	Phase 3: Rule diagnosis for mismatches — sends mismatches to Llama with trigger/exclude rule context. Partially working but needs refinement.
+What Needs to Be Done
+•	Stabilize the full pipeline end-to-end (Phase 1 → 2 → 3 → 4) with proper Wait node form handling and error recovery
+•	Build the human approval gate (Phase 4) with batch-approve and individual-approve options
+•	Write approved rule changes back to the source Excel workbook’s audit tables
+•	Build a persistent “unknown category” tracking list that accumulates across projects
+•	Set up a weekly email summary of recommended new categories
+•	Optimize for scale: the workflow needs to handle 1,500–14,000 rows per run with batched Llama calls
+•	Add a completion summary at the end of each run
+Tech Stack
+•	n8n (self-hosted, v2.15.1, Windows, npm install)
+•	Ollama (local) with Llama 3.1 8B and Llama 3.2 3B
+•	Excel .xlsm workbooks (macro-enabled, complex formula/trigger logic)
+•	JavaScript Code nodes (not Python)
+•	Local file I/O via Read/Write Files from Disk + Extract From File nodes (NOT Microsoft Excel 365 cloud nodes)
+Required Experience
+•	Strong n8n workflow development (Code nodes, Merge nodes, branching, Wait/Form nodes, error handling)
+•	Experience integrating Ollama or other local LLMs with n8n
+•	JavaScript proficiency (all Code nodes are JS)
+•	Working with Excel files programmatically (Extract From File, Convert to File, understanding of .xlsm constraints)
+•	Prompt engineering for structured JSON output from local LLMs
+Nice to Have
+•	Experience with maintenance/facilities management or commercial real estate data
+•	Familiarity with rule-based categorization systems and how to tune them
+To Apply
+Please include in your proposal:
+•	Your experience with n8n (especially self-hosted + Code nodes + LLM integration)
+•	Whether you’ve worked with Ollama/Llama specifically
+•	A rough estimate of hours to complete the remaining work
+•	Any similar projects you’ve done (data pipeline + AI classification + Excel)
+
+A detailed technical brief will be shared with selected candidates via private message.",Fixed-price,$500,20 to 50,yesterday,$80K+,Payment verified,United States,5.0,"97% hire rate, 1 open job",2026-05-15 09:51:28
+AI Agent Integration Specialist fullstack,https://www.upwork.com/jobs/Agent-Integration-Specialist-fullstack_~022054989357959760285/?referrer_url_path=find_work_home,"We need a quick, precise fix:
+Integrate an AI agent that triggers personalized onboarding emails within 1 hour of signup, based on user behavior and profile data.
+
+Your Task:
+
+Connect our user database (PostgreSQL/MySQL) to an AI agent (using OpenAI Assistants API or LangChain).
+
+Build a lightweight workflow that:
+
+Pulls user data (name, trial plan, signup source).
+
+Generates a personalized email (tone matched to our brand).
+
+Sends it via SendGrid/Mailgun within 60 minutes of signup.
+
+Ensure the integration is secure, scalable, and logged for debugging.
+
+What You Bring:
+
+Experience integrating AI agents with SaaS backends.
+
+Familiarity with OpenAI Assistants API, LangChain, or AutoGPT.
+
+Strong API skills (REST/GraphQL) and experience with email APIs (SendGrid, Mailgun).
+
+Ability to deliver a clean, working integration in ≤3 days.
+
+To Apply, Please Share:
+
+One example of an AI agent workflow you’ve built for automation.
+
+Your preferred stack for this task and why.
+
+Estimated timeline to complete this integration.
+
+If you can solve this small but high-impact problem quickly and cleanly, we’d love to work with you.",Fixed-price,$320,20 to 50,yesterday,$0,Payment verified,LTU,5.0,"50% hire rate, 2 open jobs",2026-05-15 09:51:28
+AI-Native Full-Stack Developer — Claude Code / Codex Required — EST Hours,https://www.upwork.com/jobs/Native-Full-Stack-Developer-Claude-Code-Codex-Required-EST-Hours_~022054948619906989645/?referrer_url_path=find_work_home,"I'm hiring 3 junior developers who run Claude Code or Codex as their primary IDE, not Cursor with autocomplete on. If you've shipped real production features by orchestrating AI agents, and you are FAST, this is for you.
+
+The work: Shipping features across a few products:
+
+All 3 hires work across different apps daily. Context-switching between products is the job, not a bug.
+
+This is a different development environment than you've worked in. You will:
+
+- Use my existing toolchain, slash commands, agent runtime, and shipping workflow exactly as built
+- Get a generous compute budget - I expect you to be running agents constantly
+- Ship at AI-native velocity (think 5-10x traditional developer output)
+- Adopt my way of working, not bring your own preferred stack on top
+
+Requirements (hard filter - do not apply if you don't meet these):
+
+- Demonstrable Claude Code AND/OR Codex experience
+- EST time zone, fixed hours M-F 
+- Strong English (written + spoken)
+- TypeScript + React shipped to production
+- At least one of: Supabase, Postgres, Next.js
+
+What I'm paying attention to:
+
+Speed. Ships fast over polishes long.
+
+Flexibility. Switches between products without complaint.
+
+Open-mindedness. Adopts my workflow without ""well actually"" energy.
+
+We'll start with a paid trial then move into $3,000/month for those chosen.
+
+Let me know...
+
+Which agent runtime do you use daily (Claude Code, Codex, or both), and link or describe one feature you shipped where the agent wrote the majority of the code.
+
+What's your EST overlap? Confirm you can work fixed M-F EST business hours.
+
+How do you handle context window limits and stale context drift in a long agent task?
+
+Looking forward to hearing from you.
+
+Matt",Hourly: $15-$21,,50+,yesterday,$2K+,Payment verified,USA,0,"20% hire rate, 1 open job",2026-05-15 09:51:28
+Intelligent Accessibility Layer - Braille AI Agent (Next Phase),https://www.upwork.com/jobs/Intelligent-Accessibility-Layer-Braille-Agent-Next-Phase_~022054944218093993549/?referrer_url_path=find_work_home,"This phase extends the LLM-based refreshable Braille display into an agentic AI system that actively interprets user intent, adapts outputs in real time, and performs contextual reasoning beyond static text conversion. The system integrates AI agents to handle multi-step requests, summarize complex information, and provide interactive assistance through Braille output.
+
+The platform evolves into an autonomous accessibility layer that connects perception, language understanding, and task execution, enabling visually impaired users to interact with digital content more naturally and efficiently.",Hourly,,Less than 5,yesterday,$700+,Payment verified,Indonesia,4.9,"100% hire rate, 10 open jobs",2026-05-15 09:51:28
+"Cloudflare Worker Expert Needed: API for Screenshots, Dominant Colors & Custom Fonts (Fixed €500)",https://www.upwork.com/jobs/Cloudflare-Worker-Expert-Needed-API-for-Screenshots-Dominant-Colors-Custom-Fonts-Fixed-500_~022054941358602275583/?referrer_url_path=find_work_home,"I am looking for an experienced Cloudflare developer to build a specialized Cloudflare Worker endpoint. The Worker will accept a target URL and return a JSON payload containing a screenshot, the dominant colors of the page, and a list of custom web fonts used.
+
+Core Requirements:
+- Input & Validation: The endpoint must accept a URL. It must strictly validate that the URL uses https:// and is a valid, reachable domain. If the URL is invalid, unreachable (e.g., https://somethingweird.com), or not using HTTPS, it must return an empty 400 Bad Request response.
+
+- SPA & Dynamic Site Support: The solution must correctly render Single Page Applications (SPAs) and heavily JavaScript-rendered websites. (Note: You will need to utilize Cloudflare's Browser Rendering API / Puppeteer to achieve this).
+
+- Screenshot to CF Images: Take a screenshot of the fully loaded page, upload it directly to Cloudflare Images, and return the uploaded Cloudflare Image URL in the response.
+
+- Color Extraction: Analyze the rendered page to extract the 5 primary colors used, returning them as HEX codes ordered by dominance (most used to least used).
+
+- Font Extraction (Non-System): Detect and extract all custom (non-system) fonts loaded and used by the website via @font-face. For each custom font variant used on the page, you must extract:
+  -- Font Name: The defined font-family name (e.g., ""Italian Plate No2 Expanded"").
+  -- Font Weight: The specific weight of that variant (e.g., ""Normal"", ""Bold"").
+  -- Font URL: The absolute URL to the actual font file (e.g., https://example.com/fonts/plate.woff2). It also needs to works with google and adobe fonts.
+  -- Fallback Fonts: The fallback system fonts defined in the CSS stack (e.g., sans-serif, Verdana, Arial).
+
+Technical Constraints:
+- Must be built exclusively as a Cloudflare Worker.
+- No Frameworks: Do not use routing frameworks (like Hono, Express, or Itty Router). Use standard, native Cloudflare fetch handler syntax.
+- Code must be highly structured, modular, and adhere strictly to Cloudflare's best practices.
+- Must include a properly configured wrangler.toml file so I can seamlessly incorporate and deploy it.
+
+Target JSON Output:
+For a successful request, your worker must return a 200 OK response with a JSON payload strictly matching this structure. Attached sample.json.
+
+Acceptance Criteria & Payment:
+1. You must deploy the worker to your own environment and provide me with the endpoint URL to test.
+2. I will run tests against several standard websites and SPAs.
+3. Once the output is verified to work perfectly, I will release the €500 payment and you will hand over the source code.",Fixed-price,$500,5 to 10,yesterday,$8K+,Payment verified,DNK,4.8,"100% hire rate, 1 open job",2026-05-15 09:51:28
+Need Help Inserting a part of a Working Workflow into Another Workflow in N8n,https://www.upwork.com/jobs/Need-Help-Inserting-part-Working-Workflow-into-Another-Workflow-N8n_~022054938291597212788/?referrer_url_path=find_work_home,"Hi, 
+
+I need help inserting a part of a working  workflow (3rd part) into another workflow for lead generation.
+
+It's related to scraping and sending emails automatically.
+
+I have this workflow: ""icebreaker""
+
+And I have this another workflow: AI Lead Machine Agent
+
+I need to implement this screenshot(please see attached file) to the ""icebreaker"" workflow.
+
+It's like inserting a part of ""AI Lead Machine Agent"" workflow to the main workflow which is ""icebreaker"".
+
+You probably need to change the Apify Actor called ""Call Apify Scraper"" node in the ""Deep Multiline Icebreaker System"" workflow.
+
+The goal is to scrape leads and send it automatically with delay in each email.
+
+I also need to change the Google Sheets nodes into Airtable node with the same functionality.
+
+Best regards,
+Cyrus S.",Fixed-price,$5,Less than 5,yesterday,$600+,Payment verified,Philippines,4.9,"56% hire rate, 2 open jobs",2026-05-15 09:51:28
+AI Systems Architect for Autonomous Business,https://www.upwork.com/jobs/Systems-Architect-for-Autonomous-Business_~022054928359207019801/?referrer_url_path=find_work_home,"SUMMIT DEVELOPMENT SERVICES
+Wyoming LLC  |  AI Systems & Autonomous Business Infrastructure
+ 
+
+Seeking: U.S.-Based AI Architect
+Senior AI Systems Engineer / Technical Partner  —  Operational Platform, Milestone 3b and Beyond
+
+Platform Status — What You're Stepping Into
+This is not a greenfield project. The platform is fully operational through Milestone 3a and is ready for immediate evaluation by the incoming architect.
+ 
+Completed milestones include:
+• Hardened Hetzner VPS infrastructure (Ubuntu 24, rootless Podman, UFW, Fail2Ban, SSH hardening)
+• Multi-agent orchestration via OpenClaw: Content Engine, Draft Writer, Approval Queue, Video Writer
+• AI-driven content monitoring across X and Instagram (3 active channels)
+• Telegram-based human approval and escalation workflows
+• Automated short-form video generation: ElevenLabs TTS, Kling AI 3.0, FFmpeg assembly
+• Dual-format MP4 output (X 16:9 / Instagram Reels 9:16) with Telegram preview delivery
+• Multi-model routing via OpenRouter (Llama 3.3 70B for monitoring, Claude Sonnet for drafting)
+• Channel cloning system — new content channel operational in under 30 minutes
+• Health monitoring, diagnostics, daily metrics, and recovery tooling
+ 
+The next phase — Milestone 3b — is scoped and ready to build. It primarily involves automated publishing to X and Instagram, expanded analytics, and supervisor/orchestrator refinement. A comprehensive technical handoff package from the outgoing architect documents all architecture, file structures, agent logic, API integrations, and remaining roadmap requirements.
+ 
+Milestone 3b — What Needs to Be Built
+The architecture is already designed for this phase. The primary build items are:
+• X posting skill using X API v2 POST /2/tweets with existing credentials
+• Instagram posting skill using Meta Graph API /media and /media_publish endpoints
+• Approval agent update to trigger posting after video approval via Telegram
+• Post status tracking in the approved archive (posted flag with timestamp)
+• Rate limiting logic for both X and Instagram posting frequency
+• Error handling with Telegram alerts on failed posts
+ 
+Target launch: June 1, 2026. Prerequisites (X write permissions, Meta instagram_content_publish approval) need to be confirmed immediately upon engagement.
+ 
+Core Platform — OpenClaw
+The platform is built around OpenClaw, a self-hosted agentic AI orchestration framework running on a hardened Hetzner VPS. Key architectural elements:
+• Multi-model routing: Claude Sonnet (deep reasoning/drafting), Llama 3.3 70B (monitoring/filtering/orchestration)
+• Telegram as the human-in-the-loop interface — approval, escalation, video preview, and system alerts
+• YAML-driven agent configuration with per-channel SOUL.md identity and content pillar files
+• Heartbeat monitoring, automated recovery, and daily audit logging
+• Custom Docker image (openclaw:custom) extending base with FFmpeg and python3-requests — persists across updates
+• Persistent identity and memory architecture across agent workspaces
+ 
+Business Context — Operation Legacy Launch (OLL)
+OpenClaw is the technical backbone of a broader AI business ecosystem built around a compounding growth flywheel:
+ 
+AI-Generated Content & Automation
+→  Audience Growth & Revenue
+→  Reinvestment Into More Advanced AI Systems
+→  Expanded Automation, Distribution & Compounding Growth
+ 
+Active Business Verticals
+1. SumDev Social — Faceless AI Content Engine
+A portfolio of AI-generated media brands across high-engagement consumer niches:
+• EatRightFeelGood — Nutrition, healthy living, grocery optimization, practical wellness
+• Peptide Pulse — Biohacking, longevity, peptides, performance optimization, science-backed wellness
+• K9-FIT — Dog fitness, nutrition, training, and pet wellness
+Monetization: sponsorships, affiliate partnerships, digital products, lead generation, audience acquisition.
+ 
+2. SumDev Chat — Conversational AI Platforms
+• ElderLink — Voice-first AI communication platform for assisted living facilities. SaaS model: $12/subscriber/month billed to facility; targeting meaningful MRR within 6 months of launch.
+• NestMate — AI chatbot for multifamily property management (50–500 units). Stack: OpenClaw orchestration, Groq, Claude, Twilio, WhatsApp Business API, Supabase, Stripe.
+ 
+3. SumDev SaaS — Vertical AI Platforms
+• Opti-Med Prime (OMP) — Cloud-based supply chain intelligence for independent Ambulatory Surgery Centers. Active pilot contacts established. HIPAA-architected outside PHI scope by design.
+• MediaSkapes — AI-driven operational optimization for the print and signage industry: workflow automation, production efficiency, e-commerce integration.
+ 
+What I'm Looking For
+I'm looking for an experienced AI architect who can step into a functioning production environment and:
+• Review the current architecture and validate or recommend improvements
+• Strengthen scalability, maintainability, and security posture
+• Complete Milestone 3b by the June 1 target
+• Expand automation and orchestration capabilities across subsequent milestones
+• Evolve the platform toward a production-grade, multi-vertical AI ecosystem
+• Advise on long-term infrastructure and framework strategy
+• Collaborate strategically on future AI product development
+ 
+I'm open to evolving beyond the current framework if a stronger architecture would materially improve scalability, reliability, or long-term operational efficiency. This is not a short-term engagement — I'm looking for a technical partner who understands where agentic AI is headed and wants to build something that compounds.
+ 
+A Note From the Founder
+I'm Ric Rubio, founder of Summit Development Services. While I'm not a traditional software engineer, I've developed a working knowledge of AI systems, agentic workflows, infrastructure, and orchestration through sustained hands-on development. I own the business development, compliance coordination, and strategic design layers — the technical team handles builds.
+My outgoing architect has done exceptional work building this platform from the ground up and has produced a thorough handoff package to ensure continuity. I'm now looking for the right person to take it forward.
+ 
+How to Respond
+Please include:
+• Your experience with agentic or multi-agent AI systems
+• Relevant infrastructure, orchestration, or automation background
+• Availability for an initial conversation (target engagement: immediate)
+• Any initial observations after reviewing this overview
+ 
+Thank you for your time. I look forward to connecting.
+ 
+
+Ric Rubio
+Founder, Summit Development Services
+Wyoming LLC  |  AI Systems & Autonomous Business Infrastructure",Hourly: $40-$70,,20 to 50,yesterday,$500+,Payment verified,USA,0,"25% hire rate, 1 open job",2026-05-15 09:51:28
+Automation and AI Developer,https://www.upwork.com/jobs/Automation-and-Developer_~022054924889800385817/?referrer_url_path=find_work_home,"We are seeking a skilled developer to work on various automation tasks, including chatbot development, email response automation, proforma invoice generation. The ideal candidate will have experience with software development and automation tools, and be able to create efficient solutions for our business needs.",Hourly,,20 to 50,yesterday,$0,Payment verified,Ghana,0,"0% hire rate, 2 open jobs",2026-05-15 09:51:28
+Senior Developer Needed for Automated Trading / Market-Making Bot (Crypto Exchanges),https://www.upwork.com/jobs/Senior-Developer-Needed-for-Automated-Trading-Market-Making-Bot-Crypto-Exchanges_~022054922993778721613/?referrer_url_path=find_work_home,"Senior Developer Needed for Automated Trading / Market-Making Bot (Crypto Exchanges)
+
+We are building an Auto-Pilot trading system for a crypto trading competition platform called VolumeTerminal.com.
+
+The goal is to build a sophisticated automated trading bot similar in concept to CedeHub AutoPilot, focused on controlled volume generation across centralized exchanges.
+
+This is NOT a simple trading bot project.
+
+We are specifically looking for someone with:
+
+- Previous experience building market-making or volume-generation bots
+- Strong understanding of exchange mechanics, spreads, liquidity, slippage, and execution risk
+- Experience with real trading systems running on live exchange APIs
+- Understanding of safety systems and risk controls
+- Preferably experience with HFT, execution systems, arbitrage, market making, or exchange infrastructure
+
+The core challenge is profitability and sustainability.
+
+Users will use the bot to generate eligible trading volume for reward campaigns. The bot must be designed so that:
+
+- Trading rewards earned are expected to exceed trading fees + spread losses + execution losses
+- The system behaves safely during volatility spikes or poor liquidity conditions
+- The bot avoids suspicious or wash-trading-like behavior
+- Risk is controlled through multiple safety systems
+
+We are NOT looking for:
+
+- Simple Binance API wrappers
+- Grid bot templates
+- Generic ChatGPT-generated trading bots
+- Developers without live exchange trading experience
+
+Scope
+
+You will ONLY develop the bot/execution side.
+
+Our platform/backend/frontend team will handle:
+
+- User UI
+- Campaign system
+- Authentication
+- Exchange connection management
+- Leaderboards
+- Notifications
+- Admin systems
+
+Your responsibility is the actual automated trading engine.
+
+Bot Requirements (High Level)
+The bot should support:
+
+- Controlled buy/sell execution cycles
+- Volume target execution
+- Spread checks
+- Volatility checks
+- Balance reserve management
+- Partial fill handling
+- Retry logic
+- Pause/resume/stop commands
+- Loss thresholds
+- Reward-to-loss safety thresholds
+- Live reporting back to platform
+- Audit trail generation
+- Exchange synchronization safety
+- Safe shutdown logic
+- Force-stop handling
+
+The bot must also:
+
+- Avoid suspicious repetitive patterns
+- Minimize unnecessary losses
+- Adapt execution behavior based on market conditions
+- Be architected for reliability and scalability
+
+A detailed technical requirements document will be shared separately.
+
+Important
+
+We are also looking for strategic input.
+We do NOT only want someone to code requirements blindly.
+We want someone who can help answer questions like:
+
+- How should the execution cycles work?
+- How should spreads and volatility pauses be handled?
+- How do we minimize detectable/suspicious behavior?
+- What exchange environments are safest for this model?
+- What are realistic profitability expectations?
+- How should users configure volume vs. risk?
+- What safeguards are required so users do not slowly bleed capital?
+
+We expect the developer to challenge assumptions and propose improvements.
+
+Preferred Experience
+Strong preference for candidates with experience in:
+
+- Crypto market making
+- Execution engines
+- HFT systems
+- Exchange API infrastructure
+- Liquidity bots
+- Volume-generation systems
+- Quant trading systems
+- Real-time trading architecture
+
+To Apply
+
+Please include:
+
+1. Your relevant trading bot experience
+2. Examples of live systems you built
+3. Your thoughts on how you would approach minimizing losses while generating volume
+4. Tech stack you would recommend
+5. Biggest risks you see in a system like this
+
+Please do NOT apply if you have only built basic retail trading bots or indicator strategies.",Fixed-price,"$2,000",15 to 20,yesterday,$5K+,Payment verified,Romania,5.0,"34% hire rate, 1 open job",2026-05-15 09:51:28
+Sr. Full-Stack / AI Engineer,https://www.upwork.com/jobs/Full-Stack-Engineer_~022054911154668191309/?referrer_url_path=find_work_home,"We are looking for Sr. Full-Stack / AI Engineer
+
+Experience: 5+ years
+Start: ASAP
+❗️Languages: German C2 (Must) / English C1+
+
+Requirements:
+• Strong full-stack engineering experience
+• Solid experience with AI/ML systems, RAG, embeddings, vector databases
+• Experience building scalable backend services and modern frontend applications
+• Familiarity with REST APIs, Git workflows, and cloud-native development
+• Experience with Claude Code, Codex, MCP, LangGraph, Vercel AI SDK, or similar AI-native tooling is a strong plus
+
+Tech stack:
+• TypeScript, JavaScript
+• React.js, Next.js
+• Node.js, Nest.js
+• PostgreSQL, MySQL, MS SQL
+• Docker, Kubernetes
+• Python, ML / LLM workflows
+
+Nice to have:
+• Experience with custom AI agents and agentic workflows
+• MLOps experience (MLflow, W&B, DVC)
+• Fine-tuning / LoRA / evaluation frameworks
+• Background in marketing analytics or enterprise SaaS
+
+⚠️ Important:
+
+Please apply only if you meet all the required skills listed below. We are reviewing relevant senior-level profiles only. Candidates who attach a CV to their application will be prioritized.",Hourly: $25-$35,,5 to 10,yesterday,$90K+,Payment verified,Poland,5.0,"7% hire rate, 20 open jobs",2026-05-15 09:51:28
+AI interview tool - Pipeline TTS - LLM - STT optimization,https://www.upwork.com/jobs/interview-tool-Pipeline-TTS-LLM-STT-optimization_~022054906230244541261/?referrer_url_path=find_work_home,"Hi, I'm working on AI Interview tool that uses the pipeline STT - LLM - TTS. (deepgram - OpenAI - ElevenLabs). However I still have issues with latency and VAD and AI interrupting the candidate. I tried to get my pipeline close to how LiveKit works in terms of latency and VAD. I'm looking for someone who has experience implementing this pipeline. 
+
+I also tried to integrate LiveKit but it doesn't seem to work well because LiveKit room is designed to use its own prompt while I need to manage the interview state by my own state machine (next question, covered questions) and intent classification (number of followups/clarifications/skip question request/end interview request/off-topic/denied experience/relevant answer/etc).",Fixed-price,"$2,000",20 to 50,yesterday,,,,5.0,"63% hire rate, 2 open jobs",2026-05-15 09:51:28
+AI Automation Business Workflow - LLM Gemini Integration,https://www.upwork.com/jobs/Automation-Business-Workflow-LLM-Gemini-Integration_~022054905628776279443/?referrer_url_path=find_work_home,"We are building a simple SaaS platform for service businesses that automatically responds to new leads using AI.
+
+Main goal:
+Businesses lose customers because they reply too slowly.
+Our platform instantly replies to leads through SMS and uses AI to continue the conversation and help convert leads into customers.
+
+## MVP Features
+
+* Lead input system
+* Instant SMS sending
+* AI-generated replies
+* Automatic follow-ups
+* Conversation dashboard
+* Multi-business/account support
+
+## Preferred Stack
+
+* React / Next.js
+* Node.js or Python
+* PostgreSQL / MongoDB
+* Twilio or similar SMS provider
+* Gemini API / LLM integration
+
+## Looking For
+
+Developer or small team with experience in:
+
+* SaaS platforms
+* AI/chat systems
+* workflow automation
+* SMS integrations
+* scalable backend systems
+
+Please send:
+
+* portfolio
+* similar projects
+* preferred stack
+* estimated timeline",Fixed-price,$300,20 to 50,yesterday,$100+,Payment verified,Nigeria,5.0,"50% hire rate, 1 open job",2026-05-15 09:51:28
+Workflow Engineer (n8n + OpenAI + ScrapingBee + Smartlead) for B2B Lead Gen,https://www.upwork.com/jobs/Workflow-Engineer-n8n-OpenAI-ScrapingBee-Smartlead-for-B2B-Lead-Gen_~022054895073143179677/?referrer_url_path=find_work_home,"I am looking for a senior n8n Automation Specialist to build a specific B2B lead enrichment and outreach pipeline.I will handle the initial lead scraping (Google Maps data exported to Google Sheets) and the DNS/inbox infrastructure setup on Smartlead myself. I need your help exclusively to build the core automation engine in n8n.The Workflow scope includes:Trigger: Read processed rows from a Google Sheet.Scraping & AI Qualification: Scrape the lead's website homepage (using ScrapingBee/ScrapeDo API) and use OpenAI API (gpt-4o-mini) to evaluate their industrial energy profile based on text indicators.Financial Validation: Query a local business registry API (Openapi.it) using the company's VAT number to filter out companies with turnover below €1M.PDF Generation: Inject dynamic metrics calculated by OpenAI into an HTML template to generate a personalized preliminary energy audit PDF (via PDFShift or similar API).Outreach Sync: Push the qualified lead data, customized email body, and the PDF link into our Smartlead.ai campaign via API.Error Handling: Robust ""Continue on Fail"" logic so that if a single website is offline or an API times out, the rest of the batch keeps running.I have a clear technical blueprint, database schema structure, and the exact OpenAI prompts ready.Could you please provide:An estimated fixed-price quote or number of hours required for this setup.A brief example of how you usually structure error handling for API loops in n8n.Your availability to start.Looking forward to your reply.Best regards,",Hourly,,20 to 50,yesterday,$0,Payment unverified,Italy,0,"0% hire rate, 1 open job",2026-05-15 09:51:28
+ElevenLabs Specialist - Flows + API Integration,https://www.upwork.com/jobs/ElevenLabs-Specialist-Flows-API-Integration_~022054889519156067662/?referrer_url_path=find_work_home,"OVERVIEW
+We are building a multi-modal content and product stack that runs on ElevenLabs across three workstreams. Looking for one operator who can run all three - or, if that unicorn doesn't exist, a lead who can own one or two and bring trusted collaborators for the rest.
+
+
+DELIVERABLES / SPECIFICS
+--- 1. Animation (built in Flows) ---
+Producing explainer videos using ElevenLabs' Studio and animation tooling, orchestrated through Flows. You'll work from scripts I provide. Output is polished, on-brand short-form video, with a Flow I can re-run for future episodes.
+--- 2. Audio (built in Flows where it fits) ---
+Tweaking an already existing custom ElevenLabs voice model using high-quality source audio we have to provide (improvable if needed), to be used for two purposes:
+     - Voiceover on the explainer animations above
+     - Guided meditation audio (longer-form, calmer delivery, different voice settings profile)
+You'll dial in the voice settings, stability/similarity profiles, and any project-specific tuning so the voice model sounds right in both contexts.
+--- 3. API Integration (code build) ---
+Build a runtime pipeline that:
+     a) Takes user selections from a set of predefined system variables (length, focus area, tone, etc.)
+     b) Generates a custom meditation script via LLM (I'll provide prompt logic)
+     c) Pipes that script into the ElevenLabs TTS API using my custom voice model
+     d) Returns a finished audio file or stream to the end user in real time
+This API integration needs to be production-grade - auth, error handling, rate limiting, latency-aware, streaming where it makes sense. Stack is your call (Node, Python, whatever you ship fastest in) but the code needs to be clean, commented, and handed over with docs.
+
+
+WORKFLOW
+     (A) Workstreams 1 and 2 (animation and audio): I want these built in ElevenLabs Flows wherever possible. I want to see the logic, tweak it with you in real time, and own the build long after the engagement ends. No black-box setups I can't open up later.
+     (B) Workstream 3 (API): I know Flows doesn't apply here - this is a code build. But the same principle holds: clean, documented, handed over properly so I'm not locked out of my own pipeline.
+
+
+SCOPE OF PROJECT(S)
+Phase 1 is a paid trial - one explainer video (Workstream 1, via Flows) plus a working audio sample of both styles (Workstream 2 - 1x3min explainer script and 1x10min meditation audio).
+If we click, Phase 2 expands into the full API build (Workstream 3) plus an ongoing content pipeline for minimum of 15x3min explainer vids and 30x10min meditation audios.
+
+
+YOU'RE A GOOD FIT IF:
+     - You've shipped production work with ElevenLabs across at least two of these three areas (show me the work)
+     - You're fluent in Flows specifically - not just ""I've seen it."" You build in it, you debug in it, you can teach me to tweak nodes.
+     - You understand voice settings deeply - stability, similarity, style exaggeration, how they drift across content types
+     - You can write clean API integration code and hand it over properly
+     - You ship fast and communicate without being chased
+     - Bonus: experience with meditation, mindfulness, or audio production for spoken-word content
+
+
+APPLICATIONS
+To apply, please do not waste our time with cover letters or flowery prose about AI possibilities - all we want to know to decide who to progress to interview and / or Phase 1 are the answers to the questions shown:
+     1. Which of the three workstreams have you actually shipped before? Send 1-2 ElevenLabs samples you've produced (animation, voice work, or API work).
+     2. For Flows: describe the most complex Flow you've built. What nodes, what logic, where did it break, how did you fix it?
+     3. For the API: walk me through how you'd architect the real-time meditation generation pipeline in 3-5 sentences. Looking for thinking, not buzzwords.
+     4. What are your estimates on time / cost required to complete the deliverables in the Phase 1 trial?
+     5. Are you open to bulk pricing structures in the event you are chosen as the preferred candidate, based on the volume of 15x explainer videos and 30x meditation audios?",Hourly,,20 to 50,yesterday,$60K+,Payment verified,United States,4.8,"76% hire rate, 2 open jobs",2026-05-15 09:51:28
+AI Automation Consultant – Claude.ai Agent Development,https://www.upwork.com/jobs/Automation-Consultant-Claude-Agent-Development_~022054889446614387101/?referrer_url_path=find_work_home,"# AI Automation Consultant – Claude.ai Agent Development
+
+**Job Title:**
+AI Automation Consultant / Claude.ai Agent Developer
+
+**Job Type:**
+Independent Contractor / Freelance
+
+**Project Overview:**
+We are seeking an experienced AI automation consultant who specializes in building intelligent workflow agents using [Claude.ai](https://claude.ai?utm_source=chatgpt.com) and related AI tools. Our company manages high volumes of pricing, sourcing, and operational tasks across multiple vendor and backend systems, and we are looking to streamline these workflows using AI-powered agents and automation.
+
+The ideal candidate should understand how to build practical AI agents that can interact with multiple websites, gather information, compare data, and assist our internal team with repetitive operational tasks.
+
+## What We Need
+
+Currently, our staff manually logs into multiple vendor and supplier websites to:
+
+* Check product availability
+* Compare pricing
+* Verify stock levels
+* Gather order information
+* Assist with quoting and procurement workflows
+
+In many cases, our team must access 5 or more different platforms for a single order. We want to automate and streamline these processes using AI agents and backend automation systems.
+
+## Scope of Work
+
+We are looking for someone who can:
+
+* Build AI agents using Claude.ai and/or similar AI frameworks
+* Create automations that interact with multiple websites and backend systems
+* Help streamline procurement and quoting workflows
+* Build tools that can:
+
+  * Log into vendor portals
+  * Pull inventory and pricing data
+  * Compare supplier information
+  * Present consolidated results to our team
+* Recommend the best architecture and AI stack for long-term scalability
+* Help integrate APIs, browser automation, and AI workflows where needed
+* Potentially integrate with internal systems such as spreadsheets, portals, or databases
+
+## Preferred Skills
+
+* Experience with Claude.ai, AI agents, and workflow automation
+* Strong understanding of browser automation tools
+* Experience with:
+
+  * Python
+  * APIs
+  * Web scraping/automation
+  * AI orchestration tools
+  * Backend integrations
+* Familiarity with tools such as:
+
+  * Playwright
+  * Selenium
+  * LangChain
+  * MCP servers
+  * Zapier
+  * Make.com
+  * OpenAI / Anthropic APIs
+* Experience building AI-powered business process automations
+* Strong communication and consulting skills
+
+## Ideal Candidate
+
+We are looking for someone who is:
+
+* Practical and solutions-oriented
+* Experienced in operational workflow automation
+* Able to recommend scalable AI solutions
+* Comfortable working with multiple systems and vendor platforms
+* Able to think like both an engineer and business consultant
+
+## To Apply
+
+Please provide:
+
+* Examples of AI agents or automation systems you have built
+* Relevant experience with Claude.ai or AI workflow automation
+* Your recommended approach for this type of project
+* Estimated timeline and hourly/project rates
+* Any case studies or portfolio examples",Hourly: $15-$16,,50+,yesterday,$20K+,Payment verified,United States,4.6,"100% hire rate, 1 open job",2026-05-15 09:51:28
+Full Stack Developer Needed for AI-Powered Clinic Management SaaS,https://www.upwork.com/jobs/Full-Stack-Developer-Needed-for-Powered-Clinic-Management-SaaS_~022054878012519121741/?referrer_url_path=find_work_home,"Looking for a Full Stack Developer to help build a modern AI-powered Clinic Management SaaS platform.
+
+The system will be used by clinics to manage:
+
+- Appointments
+- Patient records
+- Prescriptions
+- Billing
+- Staff management
+- Reports & analytics
+
+I also want to integrate some AI features such as:
+
+- AI-generated patient summaries
+- Smart reminders/follow-ups
+- AI chatbot for basic patient queries
+- Simple clinic insights/dashboard analytics
+
+Preferred stack:
+
+- React or Next.js
+- Node.js / NestJS
+- PostgreSQL
+- OpenAI API integration
+- AWS/Vercel
+
+Open to better suggestions if you have experience building scalable SaaS products.
+
+Looking for someone who:
+
+- Has experience with full stack SaaS applications
+- Can build clean and modern dashboards
+- Understands scalable backend architecture
+- Has worked with AI integrations/APIs
+- Communicates well and can suggest improvements
+
+If interested, please send:
+
+- Relevant projects
+- Your preferred tech stack
+- Experience with AI features
+- How you would approach this platform
+
+This can become a long-term project depending on the outcome.",Hourly: $15-$30,,50+,yesterday,$20K+,Payment verified,Canada,5.0,"95% hire rate, 2 open jobs",2026-05-15 09:51:28
+Set Up Hermes AI Agent - Creative Automation System (Private Starter Kit),https://www.upwork.com/jobs/Set-Hermes-Agent-Creative-Automation-System-Private-Starter-Kit_~022054864024543767955/?referrer_url_path=find_work_home,"I have a private GitHub starter kit built for a Hermes AI agent that powers a creative automation workflow for my paid social campaigns. I need an experienced developer to install it, connect all the tools to my accounts, and get the full system running end-to-end so I can use it daily.
+
+I will share the private repo with the developer I hire.
+
+What You'll Do
+
+Clone the private repo and install the local harness (Python).
+Install the Hermes skill into the correct skills directory on my machine.
+Set up my .env file with all my API keys (I will provide them):
+
+Airtable
+Apify
+OpenAI or Anthropic
+ElevenLabs (voiceover)
+Pexels (b-roll)
+Slack (optional)
+
+
+Build out my Airtable base using the 7 tables from the included schema template (Product Library, Approval Queue, B-roll Library, Launch Queue, etc.).
+Connect the API integrations so data flows correctly between Airtable, the agent, and the media tools.
+Set up the transcription pipeline included in the repo.
+Set up the b-roll matching workflow so the agent can map each line of generated ad copy to a piece of my b-roll.
+Run the full demo workflow end-to-end to prove it works.
+Record a short Loom video showing me how to use the system day to day.
+
+
+Who I'm Looking For
+
+You have hands-on experience with Hermes AI agents (this is a must — please tell me where you've used Hermes before)
+You're comfortable with Python, virtual environments, and command line
+You've worked with the Apify platform
+You've built or connected Airtable schemas via API
+You understand how AI agent skills and tool-calling work
+Bonus: you've worked on creative automation, paid social workflows, or AI content pipelines before
+
+
+How to Apply
+Please include in your proposal:
+
+The word ""Hermes"" at the top of your application so I know you read this.
+A short example of a Hermes agent project you've actually shipped.
+Your estimate (hours or fixed price) to complete the setup above.
+Any questions you have before we start.
+
+I'll move fast for the right developer. Looking to start within 3–5 days.",Fixed-price,$200,20 to 50,yesterday,$40K+,Payment verified,Australia,5.0,"65% hire rate, 2 open jobs",2026-05-15 09:51:28
+"Create automation feature, with webhooks, api implementation, nodes",https://www.upwork.com/jobs/Create-automation-feature-with-webhooks-api-implementation-nodes_~022054862478087979853/?referrer_url_path=find_work_home,"I am looking for a freelancer to integrate an automation feature into my existing Telegram bot. Knowledge of blockchains, ether.js, and alchemy would be beneficial. The ideal candidate should have experience in developing automated systems and be familiar with blockchain technologies. This project requires intermediate proficiency and is expected to be completed in less than a month.",Fixed-price,$388,20 to 50,yesterday,$700+,Payment verified,USA,5.0,"30% hire rate, 2 open jobs",2026-05-15 09:51:28
+AI-Assisted SaaS Platform Development,https://www.upwork.com/jobs/Assisted-SaaS-Platform-Development_~022054854265648073117/?referrer_url_path=find_work_home,"Honestly, this project has grown much larger than originally planned.
+
+It started as a relatively simple live chat SaaS, but over time expanded to include integrations, AI handover, teams and agents, workflows, unified inboxes, analytics, multi-tenant support, permissions, and more. It’s now evolving into a full-scale real-time communication platform.
+
+Much of the early development was done using AI-assisted workflows, which helped move quickly in the beginning. At this stage, I’m looking for a strong developer who can help refine the system — improving architecture, addressing edge cases, and making the platform production-ready.
+
+The current stack includes Next.js, TypeScript, Node.js, PostgreSQL, and WebSockets. Key challenges involve real-time reliability, reconnection handling, session recovery, duplicate messages/events, RBAC, tenant isolation, API design, WebSocket consistency, and overall system stability under real-world usage.
+
+I’m looking for someone comfortable working independently within a large existing codebase, able to quickly understand the system and contribute to ongoing improvements.
+
+Experience with chat systems, SaaS platforms, CRM/helpdesk tools, integrations, or AI/chatbot systems would be highly valuable.
+
+Please share examples of relevant work, your availability, and any other details you think are useful. If there’s a good fit, this could develop into a long-term collaboration.",Fixed-price,$300,10 to 15,yesterday,$600+,Payment verified,UKR,5.0,"60% hire rate, 4 open jobs",2026-05-15 09:51:28
+Automated Daily Brief,https://www.upwork.com/jobs/Automated-Daily-Brief_~022054835366245956724/?referrer_url_path=find_work_home,"I need you to build a tool sending an automated daily brief every morning to my inbox by 8am Cyprus time: 1) fetch market data from open source news agents (Reuters etc.), 2) central banks announcements 3) economic indicators (US and Europe) and compare to expectations etc. 
+
+The compact macro morning note would combine:
+
+overnight market intelligence,
+macro data surprises,
+central bank interpretation,
+and a forward-looking trading calendar.
+
+What the daily brief should do
+Audience/style: Short, concise, institutional tone — something a PM/trader can read in 3–5 minutes before market open.
+
+Delivery:
+Weekdays only
+By 08:00 Cyprus time
+
+Delivered to: my email (optional future channel: WhatsApp)
+
+Coverage:
+Markets:
+US + Europe focus
+Equities
+Rates/bonds
+FX
+Commodities
+Crypto (major only)
+Volatility if relevant
+
+Likely benchmark set:
+SPY
+QQQ
+DAX
+EURUSD
+Bitcoin
+
+Central banks
+Primary:
+
+Federal Reserve
+European Central Bank
+
+Include only market-relevant:
+speeches
+minutes
+liquidity operations
+emergency announcements
+market interpretation of policy decisions
+
+Economic releases
+
+US + Europe:
+CPI/PPI
+NFP
+unemployment
+retail sales
+ISM/PMI
+GDP
+consumer confidence
+PCE
+
+For each:
+actual
+consensus
+prior
+surprise
+immediate market reaction
+Tone
+
+Both: both factual reporting and interpretation/positioning implications
+
+Example:
+
+“Core CPI printed above expectations, pushing Treasury yields higher and reducing near-term Fed cut expectations.”",Hourly,,20 to 50,yesterday,$0,Payment unverified,Cyprus,0,"0% hire rate, 1 open job",2026-05-15 09:51:28
+AI-Powered Full-Stack Developer,https://www.upwork.com/jobs/Powered-Full-Stack-Developer_~022054833878106406222/?referrer_url_path=find_work_home,"AI Infrastructure & Safety Engineer (Phase 1). We are looking for a backend/full-stack engineer to lead the first phase of our AI platform infrastructure and safety systems.
+
+This role focuses on building the core foundation that powers secure, scalable, and production-ready AI workflows. You will work closely with our internal engineering team to design systems that support AI actions, permissions, observability, and long-term scalability.",Fixed-price,$200,20 to 50,yesterday,$200+,Payment verified,Ethiopia,5.0,"38% hire rate, 2 open jobs",2026-05-15 09:51:28
+Build Agentic AI System – LLM-Powered Multi-Agent Automation for Business Workflows,https://www.upwork.com/jobs/Build-Agentic-System-LLM-Powered-Multi-Agent-Automation-for-Business-Workflows_~022054824997326640396/?referrer_url_path=find_work_home,"We are looking for an expert AI engineer to design and build a production-ready Agentic AI system powered by large language models (LLMs). The system must support multi-agent orchestration to automate complex, multi-step business workflows with minimal human intervention.
+What We Need:
+We need an experienced AI architect who has hands-on experience building autonomous agent systems — not just someone who has used ChatGPT or basic LLM wrappers. The ideal candidate has shipped real multi-agent pipelines in production environments and understands the nuances of agent memory, tool use, context management, and failure handling.
+Core Deliverables:
+
+Multi-agent architecture designed and implemented using LangChain and LangGraph
+Autonomous agents capable of planning, reasoning, and executing tasks across connected tools and external APIs
+RAG (Retrieval-Augmented Generation) pipeline with vector database integration (Pinecone, Weaviate, or Chroma)
+FastAPI backend exposing agent capabilities as scalable REST microservices
+OpenAI GPT-4 level model integration with function-calling and tool-use patterns
+AWS deployment with proper logging, monitoring, and error handling
+Multi-turn conversation support with agent memory and context persistence
+Clean, documented source code with architecture diagram
+
+Nice to Have:
+
+Experience with CrewAI for collaborative multi-agent orchestration
+Prior work building AI-powered business process automation
+Familiarity with LangSmith or similar LLM observability tools
+Experience with streaming responses and async agent execution
+
+About the Project:
+This is a large-scope engagement. We are building this system to automate internal business workflows across multiple departments. The agent system needs to be modular, extensible, and production-grade. This is not a prototype — it needs to run reliably at scale.",Fixed-price,"$14,000",20 to 50,yesterday,$0,Payment unverified,India,0,"0% hire rate, 2 open jobs",2026-05-15 09:51:28
+AI Automation Expert: Web Scraper & Intelligent Follow-up Agent (Email/SMS),https://www.upwork.com/jobs/Automation-Expert-Web-Scraper-Intelligent-Follow-Agent-Email-SMS_~022054817856972913780/?referrer_url_path=find_work_home,"I am looking for an experienced AI Automation Specialist to build a custom, end-to-end agent that automates data extraction and lead follow-up.
+
+The Workflow:
+Data Extraction: The agent must regularly review/scrape a specific section of https://craiglist.com/ (that I will share) to extract relevant data points (e.g., names, contact info, specific updates).
+
+AI Analysis: The agent should process this data to determine the context and verify if it meets specific criteria.
+
+Automated Outreach: Based on the data, the agent will trigger an initial SMS or/and Email (via Vyke, Gmail/Gsuite/WhatsApp).
+
+Intelligent Follow-up: If no response is received or based on specific triggers, the agent must handle follow-ups at set intervals.
+
+
+The Workflow:
+
+Data Extraction: The agent must regularly review/scrape a specific section of a website (URL to be provided) to extract relevant data points (e.g., names, contact info, specific updates).
+
+AI Analysis: The agent should process this data to determine the context and verify if it meets specific criteria.
+
+Automated Outreach: Based on the data, the agent will trigger an initial SMS or Email (via Twilio, SendGrid, or similar) once approved by me on spreadsheet.
+
+Intelligent Follow-up: If no response is received or based on specific triggers, the agent must handle follow-ups at set intervals.
+
+
+Required Skills:
+Web Scraping: Experience with BeautifulSoup, Scrapy, or no-code scrapers (Browse.ai, Apify).
+
+AI Integration: Proficiency in OpenAI (GPT-4o), Claude, or LangChain for data processing.
+
+Workflow Automation: Expert level in Make.com (Integromat), Zapier, or n8n.
+
+Communication APIs: Experience setting up Twilio (SMS) and SendGrid/Mailgun (Email).
+
+Database Management: Ability to log data in Google Sheets or Airtable to track follow-up statuses.
+
+
+How do you plan to handle website changes that might break the scraper?
+
+
+Please share a brief description of a similar AI automation or ""Lead Gen"" agent you have built. If you have a preferred tech stack (e.g., ""I use Make.com and OpenAI""), please mention it.",Fixed-price,$250,20 to 50,yesterday,$700+,Payment verified,Pakistan,5.0,"20% hire rate, 2 open jobs",2026-05-15 09:51:28
+"AI Automation Freelance (Voice Agents, WhatsApp, Chatbots, CRM, Internal Processes)",https://www.upwork.com/jobs/Automation-Freelance-Voice-Agents-WhatsApp-Chatbots-CRM-Internal-Processes_~022054812989244046452/?referrer_url_path=find_work_home,"Hello,
+
+I’m looking for a freelance developer specialized in AI-driven automations to collaborate on current projects and future ongoing work.
+
+This is not a single fixed task.
+I’m looking to build a reliable collaboration with someone capable of handling different types of AI and automation implementations as they come.
+
+🔧 Type of work involved
+
+Depending on the project, tasks may include:
+
+AI chatbots (WhatsApp, web, internal tools)
+
+WhatsApp automations (lead handling, follow-ups, support)
+
+CRM integrations and automations
+
+Internal process automation
+
+AI agents for customer interaction or operations
+
+Call automation / voice agents (optional but valued)
+
+Workflow automation (n8n, Zapier, Make, APIs, etc.)
+
+Integration with external services and databases
+
+Projects will vary in scope and complexity. Each one will be clearly defined and paid per project.
+
+🤝 Collaboration approach
+
+Before starting any work, I want to have a video call to:
+
+Align expectations
+
+Understand your experience and strengths
+
+Confirm availability and communication style
+
+This call is mandatory before any collaboration.
+
+If the fit is good, the goal is to work together on multiple projects over time.",Hourly,,20 to 50,yesterday,$0,Payment verified,Spain,0,"0% hire rate, 1 open job",2026-05-15 09:51:28
+AI Full Stack Developer for SaaS & Automation MVP,https://www.upwork.com/jobs/Full-Stack-Developer-for-SaaS-Automation-MVP_~022054766125293416688/?referrer_url_path=find_work_home,"We are looking for a skilled Full Stack Developer to build scalable AI-powered web applications and automation systems. The ideal candidate should have experience with React, Next.js, Supabase, APIs, AI integrations, and backend architecture.
+
+Project responsibilities include:
+
+• Building modern SaaS MVPs
+• API integrations and automation workflows
+• AI-powered features and dashboards
+• Backend systems with Supabase/PostgreSQL
+• Cloud deployment and scalability
+
+Experience with Lovable.dev, Replit AI, Base44, Bolt, Discord bots, and automation tools is a big plus.
+
+This is just a simple website project. We need someone who can build fast while keeping the system scalable and production-ready.",Fixed-price,$10,10 to 15,yesterday,$68,Payment verified,Nigeria,5.0,"82% hire rate, 2 open jobs",2026-05-15 09:51:28
+n8n Developer - AI Content Workflow | Short-Form Video Distribution Automation,https://www.upwork.com/jobs/n8n-Developer-Content-Workflow-Short-Form-Video-Distribution-Automation_~022054764496787779824/?referrer_url_path=find_work_home,"📋 Description:
+
+Looking for an experienced n8n developer to build a content workflow system — content sourcing, AI repurposing, and scheduled distribution across TikTok, Threads, and YouTube Shorts.
+
+⚙️ Tech Stack You Must Know:
+- n8n (workflows, scheduling, error handling)
+- Content sourcing and aggregation
+- OpenAI or equivalent for rewriting and formatting
+- Social platform integrations (TikTok, YouTube, Threads)
+- Multi-account management
+
+🔁 The Workflow:
+1. Source and aggregate relevant content on a schedule
+2. Reformat and rewrite via AI into platform-native short-form
+3. Distribute across TikTok, Threads, and YouTube Shorts
+4. Multi-account support with logging and error handling
+
+📎 To Apply You Must Include:
+- A workflow you've built — n8n export, screenshot, or Loom
+- Real results from something you've run (views, growth, engagement)
+
+🚫 **No examples = no reply.",Hourly: $5-$12,,20 to 50,yesterday,$100K+,Payment verified,United Kingdom,5.0,"72% hire rate, 3 open jobs",2026-05-15 09:51:28
+AI Implementation Contractor,https://www.upwork.com/jobs/Implementation-Contractor_~022054760428577140976/?referrer_url_path=find_work_home,"I have a coaching business and I want an AI expert to help me find, design and create automations that could make my job easier and generate leads. I use Ontraport as a CRM, Claude, Zoom- basic stuff.",Hourly: $10-$20,,50+,yesterday,$7K+,Payment verified,United States,5.0,"100% hire rate, 1 open job",2026-05-15 09:51:28
+Autonomous Social Media AI Workflow — n8n Engineer Needed,https://www.upwork.com/jobs/Autonomous-Social-Media-Workflow-n8n-Engineer-Needed_~022054754070790159949/?referrer_url_path=find_work_home,"We need an experienced n8n developer to build a fully automated social media content creation, scheduling, performance, and engagement workflow for an education brand. This is not a basic scheduling tool — it is a complete autonomous content operation that gets smarter over time.
+Scope of the workflow:
+
+Takes published blog posts as input
+Creates images and videos tailored to each platform based on blog content and competitor data
+Generates platform-specific content for Instagram, LinkedIn, TikTok, Youtube and Facebook using Claude API
+Includes hashtag research, competitor analysis, and brand positioning per post
+Analyzes engagement signals to identify what drives virality and conversion in the niche, and continuously refines content strategy based on what works and what doesn't
+Schedules and publishes across all four platforms
+Autonomously engages with comments and messages — liking, responding, and flagging high-priority interactions — based on brand voice guidelines
+Pulls platform analytics monthly — analyzes performance and adjusts strategy accordingly
+Delivers automated monthly performance report
+Google Sheets logging, error handling, and email notifications on failures
+
+The system must be autonomous and self-learning — it studies competitor content, tracks what performs in my niche, and adapts strategy over time without manual input. This is not a content factory. It is a compounding system that gets smarter each month.
+You are the right fit if:
+
+You have delivered production-ready n8n builds — not demos
+You have hands-on experience with Claude API and social media platform APIs
+You have built systems with memory and feedback loops — not just automation pipelines
+You have integrated performance analytics and automated reporting
+You have experience with automated engagement workflows within platform API limits
+You implement brand voice and document everything on delivery
+
+To apply:
+
+Share a live n8n workflow you have built 
+Show a real content output your workflow produced — image or video, not just a workflow screenshot
+Explain how you would approach the competitor analysis, engagement, and analytics modules specifically",Fixed-price,$100,5 to 10,yesterday,$0,Payment verified,USA,0,"6% hire rate, 7 open jobs",2026-05-15 09:51:28
+Playwright Developer — Insurance Verification Browser Automation,https://www.upwork.com/jobs/Playwright-Developer-Insurance-Verification-Browser-Automation_~022054752322287743216/?referrer_url_path=find_work_home,"Looking for a Playwright developer to build automated insurance verification scripts. You'll work with my verification specialist to learn the manual process, then write and refine the automation.
+
+Project
+Automate logging into insurance provider portals, searching for members, checking eligibility, and extracting structured benefits data.
+
+
+Tech Stack:
+TypeScript / Node.js
+Playwright
+Browserbase (cloud-hosted browser sessions)
+Supabase (backend / database)
+
+Scope
+
+Shadow my verification specialist to understand the manual workflow, portals, and edge cases
+Inspect portals and map selectors
+Write end-to-end Playwright flows — login, search, navigate, extract
+Handle dynamic page loads, iframes, pop-ups, session timeouts, anti-bot measures
+Integrate with Supabase for storing extracted data
+Clean codebase — error handling, retries, logging
+Debug and optimize for Browserbase cloud sessions
+
+Requirements
+
+Strong Playwright or Puppeteer experience
+TypeScript / Node.js
+Experience automating login-protected websites
+Familiarity with Supabase or similar BaaS
+Cloud browser services (Browserbase, BrowserStack) is a plus
+Bonus: experience with insurance portals (EyeMed, VSP, Spectera, etc.)
+Strong English communication skills — must be comfortable on Zoom calls
+
+Working Terms
+
+Must be available during US business hours (CST)
+Communication via Zoom
+Upwork time tracker required — no manual time entries
+Ongoing work as we add portals
+
+To Apply
+
+Relevant Playwright / browser automation experience
+Example of automating a login-protected site
+Availability and hourly rate",Hourly,,20 to 50,yesterday,$100K+,Payment verified,United States,5.0,"54% hire rate, 2 open jobs",2026-05-15 09:51:28
+AI Automation Consultant (Strategy & Systems Advice),https://www.upwork.com/jobs/Automation-Consultant-Strategy-Systems-Advice_~022054752129975397779/?referrer_url_path=find_work_home,"We’re looking for an experienced AI automation specialist to consult with us on setting up scalable AI workflows and internal automations for our business operations.
+
+This is a consultation/advisory role only — we do not need implementation at this stage.
+
+We’re currently exploring tools such as:
+- Claude
+- N8N
+- Supabase
+- Playwright
+- Cursor
+
+We want advice on:
+- The best stack for different automation tasks
+- How to structure systems properly from the start
+- Scalable and easy-to-maintain workflows
+- Best practices for AI automations
+- Creating systems that can be replicated across multiple entities/businesses later on
+
+Example automations may include:
+- Admin workflows
+- Data entry and syncing
+- Internal notifications
+- AI-assisted admin tasks
+- Browser automations
+- Operational process automations
+
+Ideal experience:
+- AI workflow architecture
+- N8N or similar tools
+- LLM integrations
+- Browser automation
+- Scalable business systems
+
+Please send:
+- Relevant experience/projects
+- Your preferred automation stack and why
+- Hourly rate and availability",Hourly: $60-$100,,50+,yesterday,$20K+,Payment verified,Australia,5.0,"100% hire rate, 1 open job",2026-05-15 09:51:28
+Technical Product Partner (Part-Time) | AI Tools & Agency SaaS Builds,https://www.upwork.com/jobs/Technical-Product-Partner-Part-Time-Tools-Agency-SaaS-Builds_~022054723762187621644/?referrer_url_path=find_work_home,"About the Role
+
+I run a small performance marketing company in Orange County, CA specializing in paid media and lead generation. Over the past year, I've been building a suite of internal and client-facing SaaS tools alongside my core agency work, and I need a partner to help me build faster.
+
+This is not a task-based freelance gig. I'm looking for someone who genuinely gets what I'm building, can absorb the vision quickly, and keeps things moving when I'm not around. Technical ability matters, but product thinking and execution speed matter more.
+
+What We're Building
+
+A growing stack of marketing-adjacent SaaS products and internal tools, including:
+
+- A little landing page platform to test AI landing pages (most urgent)
+- An AI-powered ad audit and creative intelligence platform (Meta + Google ad diagnostics, creative tagging, optimization scoring)
+- An A/B testing platform built for performance marketing agencies
+- A UGC/video ad production workflow tool
+- A creative review and approval platform
+- Internal automation systems (Make, Zapier, Slack integrations, CRM pipelines)
+
+How We Work
+
+Most development happens in Replit. I'll typically hand off via a Loom or voice note explaining what I want, and I need you to take it from there and make real progress before I'm back online. You should be comfortable enough in code to get things done, but I'm not looking for a pure engineer. I'm looking for someone who thinks like a builder and operates like a partner.
+If you use other tools like Cursor, Claude Code, or GitHub in the background, that's fine, just make sure everything stays synced back to Replit so I can jump in at any point without friction.
+
+Who You Are
+
+- You understand digital products and can translate business logic into working features
+- You're comfortable in code but don't need to be a senior engineer
+- You're highly self-directed and don't need hand-holding to make progress
+- You communicate clearly and proactively, especially when working async
+- You have some familiarity with marketing, SaaS, or agency operations
+- Bonus if you have experience with AI tools, Meta/Google ads, or performance marketing
+
+Logistics
+
+- Part-time, roughly 2-3 hours/weeknight (40-50 hours per month)
+- Fixed monthly fee: $1,000-$1,500 USD
+- Overseas candidates welcome, evening Pacific Time overlap preferred so you can continue after I sign off
+- Strong performance opens the door to more hours and a potential rev share as these products grow toward revenue
+
+How to Apply
+
+Send a short note (not a template) covering:
+
+- What you've built or managed that's most relevant to this
+- How you work async with a founder or product lead
+- A link to something you've shipped or helped build",Fixed-price,"$1,500",20 to 50,yesterday,$200K+,Payment verified,United States,4.9,"53% hire rate, 4 open jobs",2026-05-15 09:51:28
+AI Automation & AI Agent Developer Needed for Digital Agency,https://www.upwork.com/jobs/Automation-Agent-Developer-Needed-for-Digital-Agency_~022054716326771502483/?referrer_url_path=find_work_home,"We are looking to hire an experienced AI developer / automation specialist who can help us build AI agents, internal tools, and client-facing AI solutions for our digital agency.
+
+We need someone who truly understands AI technology, not just someone who has experimented with ChatGPT prompts. The right person should have hands-on experience building AI workflows, AI agents, automations, integrations, and practical business tools.
+
+About Us
+
+We are a digital agency working with WordPress, WooCommerce, custom websites, SEO, Google Ads, hosting, email marketing, and business automation. We are expanding our services into AI-powered solutions for both our internal operations and our clients.
+
+We want someone who can help us design, build, test, and improve AI systems that actually solve business problems.
+
+Responsibilities
+
+You will help with:
+
+Building AI agents and AI-powered workflows
+Creating automations for internal agency tasks
+Connecting AI tools with websites, CRMs, forms, email, project management tools, and databases
+Helping us understand the best AI technology stacks for different use cases
+Building prototypes and production-ready AI tools
+Creating AI assistants for customer service, sales, marketing, reporting, and operations
+Working with APIs, webhooks, and third-party integrations
+Helping document processes and teach our team how to use the systems
+Advising us on the best tools, platforms, and frameworks to use
+Technology Experience We Are Looking For
+
+The ideal candidate should have strong experience with some or most of the following:
+
+OpenAI API / ChatGPT / Assistants / GPT models
+AI agents and multi-step AI workflows
+LangChain, LangGraph, CrewAI, AutoGen, n8n, Make, Zapier, or similar tools
+Vector databases such as Pinecone, Supabase, Weaviate, Qdrant, or similar
+RAG systems and knowledge-base AI assistants
+API integrations and webhook automation
+WordPress and WooCommerce integrations
+CRM, email marketing, and project management integrations
+JavaScript, Python, Node.js, or similar development skills
+Cloud platforms such as AWS, DigitalOcean, Cloudflare, or similar
+Databases, structured data, and document processing
+AI-powered content generation, reporting, and business automation
+Important Requirements
+
+We are looking for someone who:
+
+Has real-world experience building AI tools and agents
+Can explain technical concepts clearly
+Can recommend the right stack instead of just using trendy tools
+Understands business use cases, not just code
+Can work with an existing agency team
+Can build scalable, secure, and maintainable solutions
+Is comfortable experimenting, testing, and improving systems over time
+Can document what they build
+Has strong communication skills
+Example Projects
+
+Some projects we may want to build include:
+
+AI assistant for managing website maintenance requests
+AI-powered SEO reporting assistant
+AI customer service chatbot trained on a company’s website and documents
+AI lead qualification agent
+Internal AI project manager assistant
+AI content generation workflow for blogs, emails, and landing pages
+AI agent that connects with WordPress, forms, CRMs, and email
+AI-powered client onboarding workflow
+AI assistant for analyzing Google Analytics, Search Console, and ad performance data
+Please Include in Your Application
+
+When applying, please answer the following:
+
+What AI agents or AI automation tools have you built before?
+What AI technology stack do you recommend for a digital agency and why?
+Do you have experience with WordPress, WooCommerce, APIs, and webhooks?
+What tools do you prefer: LangChain, CrewAI, n8n, Make, Zapier, custom Python/Node.js, or something else?
+Please share examples of past AI projects, workflows, or demos.
+How would you approach building an AI assistant for a digital agency?
+Type of Work
+
+This can start as a project-based role, but we are open to an ongoing long-term relationship if it is a good fit.
+
+We are looking for someone who can become our go-to AI technology partner as we expand our agency into AI services.",Hourly: $20-$40,,50+,yesterday,$1M+,Payment verified,United States,5.0,"79% hire rate, 4 open jobs",2026-05-15 09:51:28
+"Senior Electron Engineer, AI Automation",https://www.upwork.com/jobs/Senior-Electron-Engineer-Automation_~022054674427227886860/?referrer_url_path=find_work_home,"We are seeking a specialized Electron Developer to optimize and extend a high-performance desktop application for cloud gaming. The tool utilizes BrowserViews and complex IPC to manage multiple concurrent gaming instances within a single interface. Your primary objective will be to refine the existing architecture, ensuring stability and low-latency performance across all active views.
+
+A critical requirement for this role is expertise in bot development. We need an engineer who can design and integrate automated agents to interact with the cloud instances, handling state-based triggers and routine automation within the Electron environment. You will be responsible for building these automated workflows while maintaining the integrity of the multi-instance sandbox.
+
+The ideal candidate has a deep understanding of Chromium rendering and Node.js integration. You should be comfortable auditing an existing codebase to resolve memory leaks and IPC bottlenecks. We are looking for a developer who can own the project end-to-end, from architectural hardening to the deployment of sophisticated automation features.",Hourly: $20-$60,,20 to 50,yesterday,$10,Payment verified,United States,1.0,"19% hire rate, 2 open jobs",2026-05-15 09:51:28
+AI Automation Developer Needed for Business Workflow Optimization,https://www.upwork.com/jobs/Automation-Developer-Needed-for-Business-Workflow-Optimization_~022054668233817554099/?referrer_url_path=find_work_home,"We are looking for an AI Automation Developer to help automate several internal business operations and reduce repetitive manual work.
+
+The ideal candidate should have experience integrating AI tools with automation platforms and APIs to create intelligent workflows capable of handling tasks automatically.
+
+Responsibilities include:
+
+Building AI-powered workflows
+Integrating OpenAI APIs
+Automating repetitive business tasks
+Connecting CRMs, Google Sheets, Slack, and internal tools
+Implementing webhook-based automations
+Creating conditional automation logic
+
+Experience with platforms such as n8n, Zapier, Make, or custom Python automation is highly preferred.
+
+Bonus if you have experience with:
+
+AI agents
+GPT integrations
+Workflow orchestration
+Lead automation
+AI-powered customer support systems
+
+Project Scope:
+Initial MVP with potential for long-term collaboration.",Fixed-price,$50,15 to 20,yesterday,$0,Payment verified,Brazil,0,"0% hire rate, 1 open job",2026-05-15 09:51:28
+SaaS Web Data API Platform (FastAPI / Node.js / React) — Final Mile to Launch,https://www.upwork.com/jobs/SaaS-Web-Data-API-Platform-FastAPI-Node-React-Final-Mile-Launch_~022052105480412586963/?referrer_url_path=find_work_home,"About the Project:
+
+We have a fully operational web data extraction API platform in final pre-launch stage. The core engine, worker fleet, API, customer dashboard, admin portal, and billing infrastructure are all built and deployed. We need an experienced developer to wire the remaining connections, harden the platform for public launch, and get it across the finish line.
+
+This is a wiring and hardening engagement, not a build. Every major component exists. 
+
+What Is Already Built and Running:
+
+Live API — FastAPI backend, BullMQ job queue, Redis state machine, Playwright worker fleet, 11 platform data extractors, Screenshot API, Webhooks, Batch processing, Credit system, Rate limiting
+Customer dashboard at app.[redacted].com — React/Vite, fully built: Sign In, interactive API playground, job tracking, history, API key management, webhooks, credits & billing UI, usage analytics, plan display
+Admin portal at admin.[redacted].com — React/Vite, fully built: user management, job list, system metrics
+WHMCS billing platform — installed and running at billing.[redacted].com
+Stripe checkout — endpoint exists in API, credit bundle UI exists in dashboard
+Python and Node.js SDKs — written and in repo, not yet published
+Full Swagger API documentation — live
+
+What You Are Being Hired to Do
+
+Milestone 4 — Wire Billing & Harden for Launch 
+
+Connect WHMCS to the FastAPI backend — Stripe credit purchases must flow through to user account credit allocation in Postgres/Redis
+Confirm and complete end-to-end billing flow: purchase → invoice → credit → API access
+Lock down the admin portal — currently accessible without sufficient protection; must be secured before launch
+Publish Python SDK to PyPI and Node.js SDK to npm (accounts provided)
+Implement fraud controls, abuse handling, and chargeback protection
+Terms of Service / Acceptable Use Policy integration
+Postgres backup and recovery strategy
+
+Milestone 5 — Wire Dashboards & Production Hardening 
+
+Wire WebSocket or SSE real-time data layer from BullMQ/Redis to existing frontend components — job status, queue depth, worker health
+Confirm all dashboard flows work end-to-end against live API: playground → job → result, billing → credit allocation, API key → authenticated request
+CORS hardening
+Dockerized production deployment finalization
+Performance optimization and stability pass
+
+Tech Stack
+
+Backend: Python (FastAPI), Node.js, BullMQ, Redis, Postgres
+Frontend: React, Vite, Tailwind CSS, WebSocket/SSE
+Billing: WHMCS, Stripe
+Infrastructure: Docker, nginx, Ubuntu Linux VMs
+
+Infrastructure Boundaries — Critical
+
+This platform runs on dedicated infrastructure managed by our network engineering team. The following are strictly outside your scope and must not be modified:
+
+Server networking, routing, firewall, or DNS configuration
+Host-level Docker networking
+Any configuration outside the application codebase
+All server access is coordinated through our network engineer. You will have SSH access to application servers. You do not touch the network layer.
+
+Requirements:
+
+Sign NDA / Non-Compete. Non-Negotiable.
+
+Strong production experience with FastAPI (Python) and Node.js — show us examples
+WHMCS module development or equivalent billing platform integration experience
+React with real-time data (WebSocket/SSE) in production
+Comfortable inheriting and extending an existing codebase — not starting from scratch
+Docker deployment on existing infrastructure
+$10,000+ Upwork earnings with strong reviews
+GitHub profile with relevant work — required at application
+Available for onboarding call with our network engineer before contract start
+
+What We Are NOT Looking For:
+
+Developers who need to rebuild what exists
+Developers who will propose architectural changes to the core engine
+Vibe coders — this codebase has production infrastructure behind it
+Engagement
+
+Fixed price per milestone: 
+
+Timeline: 4–6 weeks
+
+Communication: Monday.com + direct messaging",Hourly: $35-$75,,20 to 50,last week,$400K+,Payment verified,United States,4.8,"59% hire rate, 3 open jobs",2026-05-15 09:51:28
+Create AI Quant Agent (pairs trading),https://www.upwork.com/jobs/Create-Quant-Agent-pairs-trading_~022054663175860603647/?referrer_url_path=find_work_home,"(I'm reposting an early job in this new variant.)
+
+Hi, I have been working a couple of weeks on pairs trading analysis for perps in anticipation of deploying a diversified (npairs 50+) model. It's been me battling with Claude Code, feeding it price history, funding, OI, order book data, etc. Calculating all sorts of weird metrics. Backtesting, slicing and dicing, trying to avoid p-hacking, etc. Since I'm not a quant by trade, there's a lot of learning along the way... but the thing I'm noticing is that I am not a particularly high value manager of this process, and tbh I'm not sure many humans would be. We're just sacks of meat holding the model back.
+
+So what if instead of trying to pretend I'm a quant asking a model to do stuff, what if we created an agentic quant that, given enough goals/constraints/data/tools, can do what I'm trying to without me doing it. To a large extent it's just a variation of autoresearch/ralph loops/goal command in cc/codex. But it's done with some skills that keep it on-track, provide guard rails, etc. 
+
+The deliverable is a set of skills or plugin that acts like a human quant, can interview the user (me), understand general direction, guide where necessary, do web research, pull together data, run experiments, improve them, etc.
+
+So, wait, I'm asking you to help me build an agentic quant for some lunch money? Yup. Because you'll learn 100x more working on this than you will grinding out your next pinescript indicator. It might not work. It might be garbage. It might be life-changing. Dunno, but I'm going to work on it.",Fixed-price,"$1,000",20 to 50,yesterday,$300K+,Payment verified,United States,5.0,"66% hire rate, 2 open jobs",2026-05-15 09:51:28
+AI Agent System Developer Needed — Multi-Agent Business Automation Platform with Human Approval,https://www.upwork.com/jobs/Agent-System-Developer-Needed-Multi-Agent-Business-Automation-Platform-with-Human-Approval_~022054661897137499539/?referrer_url_path=find_work_home,"I’m looking for an experienced AI developer to build a custom all-in-one AI business operations app with multiple AI agents.
+
+This will be a private app owned by me, not an open-source setup and not a basic chatbot.
+
+The app should include AI agents for roles like:
+
+Executive Assistant
+Accountant / Bookkeeper
+HR Assistant
+Sales / CRM Assistant
+Customer Support
+Chief of Staff / Orchestrator
+Compliance / Approval Agent
+
+Each agent should have its own role, personality, permissions, and responsibilities. The agents should be able to work together inside one platform.
+
+The most important feature is human approval before action. Agents can draft, summarize, prepare, and recommend, but they cannot send emails, create invoices, update records, schedule meetings, delete data, or contact anyone without approval.
+
+Custom web app
+Secure login
+Main dashboard
+Multi-agent AI system
+Agent-to-agent collaboration
+Approval workflow
+Audit log
+Admin panel
+Role-based permissions",Hourly: $25-$47,,50+,yesterday,$10K+,Payment verified,United States,5.0,"36% hire rate, 11 open jobs",2026-05-15 09:51:28
+Python Developer — Google Ads MCC API Pipeline + Internal Web App,https://www.upwork.com/jobs/Python-Developer-Google-Ads-MCC-API-Pipeline-Internal-Web-App_~022054658633257407756/?referrer_url_path=find_work_home,"PROJECT OVERVIEW
+
+We are a niche digital marketing agency managing 100+ Google Ads accounts for local businesses across the US. 
+
+We need a Python developer to build an internal intelligence system that pulls data from our Google Ads MCC, stores it in a database, and surfaces AI-generated performance analysis through a simple web application.
+
+This is not a client-facing tool and not a reporting dashboard. 
+
+It is an internal system our team uses to manage 100+ accounts without manually logging into each one.
+
+WHAT YOU’RE BUILDING
+
+1.	Data pipeline — Python script connecting to Google Ads API via MCC manager account. Queries all child accounts simultaneously. Pulls campaign metrics, search term reports, geography data, and campaign settings. Runs on a daily or weekly schedule automatically.
+
+2.	Database — Structured schema to store all pulled data plus historical records (3+ years). You design the schema.
+
+3.	Web application — Fleet overview table showing all accounts with performance status (green/yellow/red vs benchmarks). Account drill-down view with full campaign breakdown. Basic user authentication.
+
+4.	AI diagnosis layer — When an account is opened, the system calls the Claude API, compares that account against peer accounts with similar characteristics, and generates a plain-English diagnosis and recommendation. No user prompting required — it runs automatically.
+
+REQUIRED EXPERIENCE
+
+•	Google Ads API — specifically MCC (manager account) level queries across child accounts. This is non-negotiable.
+
+•	Experience pulling search term reports, campaign settings, and geography data via API — not just UI-level access
+
+•	Python fluency — Google Ads API libraries are Python-first
+
+•	Database design — you build the schema, not just pull data into a spreadsheet
+
+•	Basic web application build — Flask or FastAPI backend, simple frontend
+
+NICE TO HAVE
+
+•	Claude / Anthropic API experience
+•	Experience with HighLevel (GHL) webhooks — not required for this phase
+
+HOW WE’RE ENGAGING
+•	Phase 1 (paid discovery): Review our MCC access, map the API endpoints, deliver a one-page technical spec and realistic timeline. We own the spec regardless of outcome.
+
+•	Phase 2 (fixed-price build, milestone-based): Full pipeline, database, web app, and AI diagnosis layer. Milestones: API connection live → single account pulling → all accounts aggregating → fleet dashboard live → AI diagnosis working.
+
+TO APPLY
+
+Tell me specifically: have you queried a Google Ads MCC account via the API and pulled search term reports across child accounts? 
+
+Describe what you built and what libraries you used. 
+
+Applications that do not answer this question directly will not be reviewed.",Hourly,,20 to 50,yesterday,$100K+,Payment verified,United States,5.0,"82% hire rate, 1 open job",2026-05-15 09:51:28
+"Ai automation specialist needed (N8n,Vapi)",https://www.upwork.com/jobs/automation-specialist-needed-N8n-Vapi_~022054648518114495231/?referrer_url_path=find_work_home,"We are looking for a skilled n8n automation expert to help us build advanced AI-powered systems for international service businesses and high-ticket clients.
+We are currently scaling rapidly and need someone who can help us develop reliable, production-ready automations involving AI, CRM integrations, appointment systems, lead management, and workflow optimization.
+This is not just a small freelance gig — we are looking for someone who wants to grow with us long term. There is strong earning potential and consistent work available for the right person.
+Current projects may include:
+Building and optimizing n8n workflows
+AI chatbot and AI voice agent automations
+CRM integrations
+Google Calendar / Gmail / Twilio / OpenAI integrations
+Lead generation and follow-up systems
+Appointment booking workflows
+API integrations and webhook handling
+Automation debugging and scaling
+Requirements:
+Strong experience with n8n
+Experience with AI automations preferred
+Ability to build stable and efficient workflows
+Good communication and problem-solving skills
+Ability to work independently and deliver quickly
+Please include:
+Previous n8n or automation projects
+Screenshots/videos/demos if available
+Your pricing structure
+Availability and timezone
+Experience with AI tools and APIs
+Budget: Up to $2000+ depending on project scope and quality of work.
+We are looking for serious people who want to be part of something growing fast and potentially build a long-term working relationship with consistent opportunities.",Fixed-price,"$1,000",10 to 15,yesterday,$0,Payment unverified,India,0,"0% hire rate, 3 open jobs",2026-05-15 09:51:28
+Production OpenAl + Claude FastAPI Backend with Streaming & Function Calling,https://www.upwork.com/jobs/Production-OpenAl-Claude-FastAPI-Backend-with-Streaming-Function-Calling_~022054640448198576197/?referrer_url_path=find_work_home,"We are seeking an experienced developer to build a FastAPI backend that integrates OpenAI and Claude models. The project involves setting up a streaming API for real-time data processing and implementing function calls to AI models. The ideal candidate will have a strong background in AI and backend development, with experience in handling complex data streams and integrating AI models into web applications.",Fixed-price,$50,15 to 20,yesterday,$8K+,Payment verified,United States,5.0,"91% hire rate, 75 open jobs",2026-05-15 09:51:28
