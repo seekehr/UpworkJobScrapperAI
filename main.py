@@ -1,5 +1,6 @@
 """Run the Upwork feed scraper (`scrapping.py`), then the new-job monitor (`scrape_new_jobs.py`)."""
 
+import utils.session
 import asyncio
 
 import groq_client
