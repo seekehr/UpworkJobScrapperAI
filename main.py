@@ -2,8 +2,22 @@
 
 import asyncio
 
+import groq_client
 import scrape_new_jobs
 import scrapping
+
+
+def _ask_loop() -> None:
+    """Let the user ask questions about scraped jobs until they type 'exit'."""
+    print("\n--- Ask questions about the scraped jobs (type 'exit' to move on) ---\n")
+    while True:
+        question = input("You: ").strip()
+        if not question:
+            continue
+        if question.lower() == "exit":
+            break
+        groq_client.ask(question)
+        print()
 
 
 def main() -> None:
@@ -16,6 +30,7 @@ def main() -> None:
         asyncio.run(scrape_new_jobs.init())
     else:
         asyncio.run(scrapping.init())
+        _ask_loop()
         asyncio.run(scrape_new_jobs.init(skip_ready_prompt=True))
 
 

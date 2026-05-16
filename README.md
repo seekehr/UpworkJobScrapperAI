@@ -1,4 +1,6 @@
-# Upwork Scrapper
+# Upwork Scrapper AI
+
+![Upwork Job Scraper AI — scrape jobs and ask questions in the terminal](upworkjobscrapperai.png)
 
 UpworkScrapper is a Python toolset that plugs into your own Chrome (via remote debugging on port 9222) and uses Playwright to read Upwork’s “most recent” freelancer feed. It collects job listings into JSON and CSV—title, link, description, rate/budget, proposals, posted time, client spend, payment verification, country, and enriched client rating and hire rate from each job’s detail page—with pauses between requests and prompts if a captcha or challenge appears so you can solve it in the real browser session.
 
